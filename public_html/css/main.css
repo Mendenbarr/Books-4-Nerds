@@ -7,19 +7,35 @@ html {
     padding-left:0;
 }
 .jumbotron {
-    background-color: #123C69;
+     background-image: linear-gradient(#edc7b7, #eee2dc);
 }
 .jumbotron .container {
-    color:#FFF;
+    color:#AC3B61;
+}
+.landing-content {
+    height: 1000px;
+    background-color: #eee2dc;
 }
 nav {
     height: 100px;
-    background-color:#AC3B61;
+    background-color:#edc7b7;
+    border-bottom: 2px dashed #AC3B61;
 }
-
-
-
-
+body {
+        background-color: #eee2dc;
+}
+footer{
+    bottom:0;
+    margin-bottom:0;
+    padding-bottom: 0;
+    position: relative;
+    background-color: #123c69;
+    color: #FFF;
+}
+hr {
+    background-color: #AC3B61;
+        height: 5px;
+}
 
 
 
