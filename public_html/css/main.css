@@ -1,13 +1,21 @@
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
+html {
+    background-color: #EDC7B7;
+}
+.nav-img {
+    width: 80px;
+    margin-left:0;
+    padding-left:0;
+}
+.jumbotron {
+    background-color: #123C69;
+}
+.jumbotron .container {
+    color:#FFF;
+}
+nav {
+    height: 100px;
+    background-color:#AC3B61;
+}
 
 
 
