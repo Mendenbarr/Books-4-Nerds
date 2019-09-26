@@ -2,7 +2,7 @@ html {
     background-color: #EDC7B7;
 }
 .nav-img {
-    width: 80px;
+    width: 120px;
     margin-left:0;
     padding-left:0;
 }
@@ -11,17 +11,16 @@ html {
 }
 .jumbotron .container {
     color:#AC3B61;
-    font-family: 'Big Shoulders Display', monospace;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
 }
 .landing-content {
     height: 1000px;
     background-color: #eee2dc;
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
 }
 nav {
-    height: 100px;
     background-color:#edc7b7;
     border-bottom: 2px dashed #AC3B61;
 }
@@ -39,6 +38,13 @@ footer{
 hr {
     background-color: #AC3B61;
     height: 5px;
+}
+.search {
+    margin-top: 3%;
+        margin-bottom: 0;
+}
+.navbar-form {
+margin-right: 12%;
 }
 
 
