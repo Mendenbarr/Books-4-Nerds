@@ -106,13 +106,39 @@ hr {
 .search {
     margin-top: 10px;
     margin-bottom: 0;
-    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    vertical-align: middle;
 }
-.navbar-form {
-    margin-right: 170px;
-}
+
 .collapsed {
     z-index: 3;
 }
+.shop img{
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    transition: 0.5s;
+    -webkit-transition: 0.5s
+}
+/*.shop img:hover {
+    width: 95px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s
+}*/
+.nav-inp .form-group .col-md-12{
 
-
+}
+.nav-inp button .col-md-12{
+    vertical-align: middle;
+}
+p .col-md-4, h1 .col-md-4, h2 .col-md-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+p {
+    padding-left: 15px;
+    padding-right: 15px;
+}

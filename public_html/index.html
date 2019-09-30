@@ -33,9 +33,9 @@
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header">
-                    
-                        <img class="nav-img" src="books4nerds_main_transparent.png" alt="Books 4 Nerds"/>
-                    
+
+                    <img class="nav-img" src="books4nerds_main_transparent.png" alt="Books 4 Nerds"/>
+
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
@@ -49,17 +49,23 @@
 
 
                 <div id="navbar" class="navbar-collapse collapse">
-                    <div class="form-group">
+                    <div class="form-group col-md-4">
                         <input type="text" placeholder="Search..." class="form-control search">
                     </div>
-                    <form class="navbar-form navbar-right" role="form">
-                        <div class="form-group">
-                            <input type="text" placeholder="Email" class="form-control">
+                    <form class="navbar-form navbar-right col-md-12" role="form">
+                        <div class="col-md-6">
+                            <div class=" nav-inp form-group col-md-12">
+                                <input type="text" placeholder="Email" class="form-control">
+                            </div>
+                            <div class="form-group col-md-12">
+                                <input type="password" placeholder="Password" class="form-control">
+                            </div>
+                            <button type="submit" class="btn btn-success col-md-8">Sign in</button>
                         </div>
-                        <div class="form-group">
-                            <input type="password" placeholder="Password" class="form-control">
+                        
+                        <div class="form-group shop">
+                            <img src="shopcart.png" alt="Shopping Cart"/>
                         </div>
-                        <button type="submit" class="btn btn-success">Sign in</button>
                     </form>
                 </div><!--/.navbar-collapse -->
             </div>
@@ -100,32 +106,32 @@
             </div>
         </div>
 
- <footer>
-        <div class='footer-content'>
-            <p class='col-sm-4 link'>
-                <a href="contact.html">
-                    Contact Us
-                </a>
-            </p>
-            <p class='col-sm-4 link'>
-                <a href="contact.html">
-                    FAQ
-                </a>
-            </p>
-            <p class='col-sm-4 link'>
-                <a href="about.html">
-                    About Us
-                </a>
-            </p>
-            
-            <div class="col-md-12 img">
-                <img src="books4nerds_main_beige_transparent.png" alt=""/>
+        <footer>
+            <div class='footer-content'>
+                <p class='col-sm-4 link'>
+                    <a href="contact.html">
+                        Contact Us
+                    </a>
+                </p>
+                <p class='col-sm-4 link'>
+                    <a href="contact.html">
+                        FAQ
+                    </a>
+                </p>
+                <p class='col-sm-4 link'>
+                    <a href="about.html">
+                        About Us
+                    </a>
+                </p>
+
+                <div class="col-md-12 img">
+                    <img src="books4nerds_main_beige_transparent.png" alt=""/>
+                </div>
+                <p class='col-sm-12 copyright'>
+                    &copy; Books 4 Nerds Co. 2019
+                </p>
             </div>
-            <p class='col-sm-12 copyright'>
-                &copy; Books 4 Nerds Co. 2019
-            </p>
-        </div>
-    </footer>
+        </footer>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
@@ -133,6 +139,6 @@
         <script src="js/main.js"></script>
     </body>
 
-   
+
 
 </html>
