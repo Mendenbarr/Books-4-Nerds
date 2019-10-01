@@ -2,8 +2,12 @@ html {
     background-color:#123c69;
     width:100%;
 }
+
+body {
+    background-color: #123c69;
+}
 nav {
-  
+
 }
 .nav-img {
     width: 80px;
@@ -49,7 +53,7 @@ nav {
 
 }
 .click2 {
-   
+
 }
 div div p a {
     margin-left: auto;
@@ -86,6 +90,7 @@ footer{
     position: relative;
     background-color: #123c69;
     color: #FFF;
+    width: 100%
 
 }
 footer p {
@@ -124,13 +129,13 @@ hr {
     height: 5px;
 }
 @media (max-width: 991px) {
-/*    .form-group {
-        float:left!important;
-        max-width:150px!important;
-    }*/
-/*    nav {
-        max-height: 85.16px!important;
-    }*/
+    /*    .form-group {
+            float:left!important;
+            max-width:150px!important;
+        }*/
+    /*    nav {
+            max-height: 85.16px!important;
+        }*/
 
 }
 .collapsed {
@@ -144,7 +149,7 @@ hr {
     clear: right;
     transition: 0.1s;
     -webkit-transition: 0.1s;
-    
+
 }
 .shop img:hover {
     width:60px;
@@ -172,5 +177,51 @@ p {
     padding-right: 15px;
 }
 form .navbar-form {
+
+}
+
+#bookpageimg {
+    width: 300px;
+}
+#bookpagetitle {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#author, #isbn, #price, #avail {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-weight: lighter;
     
+}
+#review {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+}
+#bookinfo {
+    background-color: #eee2dc;
+    padding-top: 60px;
+    padding-bottom: 35px;
+}
+#bookpagedesc {
+    background-color: #AC3B61;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    padding-bottom: 35px;
+    width: 100%;
+}
+#bookpagedesc .row2 h1 {
+    text-align: center;
+    color: #eee2dc;
+}
+#bookpagedesc .row2 p {
+    text-align: justify;
+    color: #eee2dc;
+}
+div #review strong {
+    color: gold;
+    text-shadow: 1px 1px #333;
 }
