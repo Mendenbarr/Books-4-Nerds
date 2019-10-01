@@ -212,16 +212,32 @@ form .navbar-form {
     font-weight: bolder;
     padding-bottom: 35px;
     width: 100%;
+    
+    
 }
-#bookpagedesc .row2 h1 {
+#bookpagedesc .desc {
+    border-right: 5px dashed #123c69;
+}
+#bookpagedesc .row2 h1, #bookpagedesc .desc h1 {
     text-align: center;
     color: #eee2dc;
 }
-#bookpagedesc .row2 p {
+#bookpagedesc .row2 p, #bookpagedesc .desc p {
     text-align: justify;
     color: #eee2dc;
 }
 div #review strong {
     color: gold;
     text-shadow: 1px 1px #333;
+}
+.related img {
+    height: 200px;
+    width:auto;
+    margin: 0 auto;
+    display: block;
+    vertical-align: middle!important;
+    padding-top: 20px;
+}
+.related p {
+    text-align: center!important;
 }
