@@ -10,9 +10,7 @@ nav {
     margin: 10px;
     float:left;
 }
-.shrink {
-    
-}
+.shrink {}
 .jumbotron {
     background-color: #AC3B61;
     /*    background-image: linear-gradient(#edc7b7, #eee2dc);*/
