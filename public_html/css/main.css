@@ -5,7 +5,7 @@ html {
 .nav-img {
     width: 80px;
     margin: 10px;
-    padding-left:0;
+    float:left;
 }
 .jumbotron {
     background-color: #AC3B61;
@@ -103,37 +103,46 @@ hr {
     background-color: #FFF;
     height: 5px;
 }
-.search {
-    margin-top: 10px;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display:block;
-    vertical-align: middle;
-}
+@media (max-width: 991px) {
+    .form-group {
+        float:left!important;
+        width:150px!important;
+    }
+    nav {
+        max-height: 85.16px!important;
+    }
 
+}
 .collapsed {
     z-index: 3;
 }
 .shop img{
-    width: 90px;
+    width: 60px;
     margin-left: auto;
     margin-right: auto;
     float: right;
-    transition: 0.5s;
-    -webkit-transition: 0.5s
+    clear: right;
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+    
 }
-/*.shop img:hover {
-    width: 95px;
-    transition: 0.5s;
-    -webkit-transition: 0.5s
-}*/
-.nav-inp .form-group .col-md-12{
+.shop img:hover {
+    width:60px;
+    border-radius: 13px;
+    border: 2px double #AC3B61;
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+}
+.form-group input {
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+}
+.form-group input:hover{
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+    border: 2px double #AC3B61;
+}
 
-}
-.nav-inp button .col-md-12{
-    vertical-align: middle;
-}
 p .col-md-4, h1 .col-md-4, h2 .col-md-4 {
     padding-left: 15px;
     padding-right: 15px;
@@ -141,4 +150,7 @@ p .col-md-4, h1 .col-md-4, h2 .col-md-4 {
 p {
     padding-left: 15px;
     padding-right: 15px;
+}
+form .navbar-form {
+    
 }
