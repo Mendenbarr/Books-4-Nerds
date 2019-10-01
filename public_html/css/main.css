@@ -124,13 +124,13 @@ hr {
     height: 5px;
 }
 @media (max-width: 991px) {
-    .form-group {
+/*    .form-group {
         float:left!important;
         max-width:150px!important;
-    }
-    nav {
+    }*/
+/*    nav {
         max-height: 85.16px!important;
-    }
+    }*/
 
 }
 .collapsed {
