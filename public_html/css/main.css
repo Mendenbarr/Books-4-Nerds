@@ -2,6 +2,9 @@ html {
     background-color:#123c69;
     width:100%;
 }
+p {
+    text-align: justify;
+}
 .nav-img {
     width: 80px;
     margin: 10px;
@@ -17,6 +20,9 @@ html {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
 }
+.click1 {
+    background-image: linear-gradient(#337ab7,#123c69)!important;
+}
 .landing-content {
     background-color: #eee2dc;
     font-family: 'Montserrat', sans-serif;
@@ -30,6 +36,9 @@ html {
     margin-right: auto;
     margin-bottom: 10px;
 
+}
+.click2 {
+   
 }
 div div p a {
     margin-left: auto;
@@ -106,7 +115,7 @@ hr {
 @media (max-width: 991px) {
     .form-group {
         float:left!important;
-        width:150px!important;
+        max-width:150px!important;
     }
     nav {
         max-height: 85.16px!important;
