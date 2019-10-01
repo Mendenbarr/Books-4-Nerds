@@ -193,7 +193,7 @@ form .navbar-form {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     font-weight: lighter;
-    
+
 }
 #review {
     font-size: 16px;
@@ -212,8 +212,8 @@ form .navbar-form {
     font-weight: bolder;
     padding-bottom: 35px;
     width: 100%;
-    
-    
+
+
 }
 #bookpagedesc .desc {
     border-right: 5px dashed #123c69;
@@ -236,8 +236,21 @@ div #review strong {
     margin: 0 auto;
     display: block;
     vertical-align: middle!important;
-    padding-top: 20px;
+    margin-top: 20px;
+    -webkit-transition:0.1s;
+    transition:0.1s;
 }
+/*.related img:hover {
+    box-shadow: 5px 5px #333;
+    height: 140px;
+    -webkit-transition:0.1s;
+    transition:0.1s;
+}*/
 .related p {
     text-align: center!important;
+
+    font-size: 11px!important;
+}
+.related .subtitle{
+    padding-top: 20px!important;
 }
