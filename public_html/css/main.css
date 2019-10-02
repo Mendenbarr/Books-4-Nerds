@@ -2,7 +2,10 @@ html {
     background-color:#123c69;
     width:100%;
 }
-
+.container {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
 body {
     background-color: #123c69;
 }
@@ -176,10 +179,57 @@ p {
     padding-left: 15px;
     padding-right: 15px;
 }
-form .navbar-form {
-
+.sort {
+    width: 100%;
+    background-color: #AC3B61;
+    margin-top: 70px;
+    height: 100px;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 3;
+    top:81px;
 }
-
+.sort h1 {
+    padding-top: 15px;
+    color: #eee2dc;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.sorted {
+    display: inline-block;
+}
+.sorted p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+}
+.sorted p:hover {
+    color: #fff;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+}
+.items {
+    padding-top: 30px;
+}
+.items h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
+}
+.items p .click2 {
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+.items img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 150px;
+}
 #bookpageimg {
     width: 300px;
 }
@@ -210,25 +260,26 @@ form .navbar-form {
     background-color: #AC3B61;
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
-    padding-bottom: 35px;
     width: 100%;
-
-
 }
-#bookpagedesc .desc {
-    border-right: 5px dashed #123c69;
-}
+
 #bookpagedesc .row2 h1, #bookpagedesc .desc h1 {
     text-align: center;
-    color: #eee2dc;
+    color: #fff;
 }
 #bookpagedesc .row2 p, #bookpagedesc .desc p {
     text-align: justify;
-    color: #eee2dc;
+    color: #fff;
 }
 div #review strong {
     color: gold;
     text-shadow: 1px 1px #333;
+}
+.related {
+    padding-left: 0!important;
+    padding-right: 0!important;
+    background-color: #123c69;
+
 }
 .related img {
     height: 200px;
@@ -253,4 +304,61 @@ div #review strong {
 }
 .related .subtitle{
     padding-top: 20px!important;
+}
+
+.click2buy {
+    background-color:#337ab7!important;
+    background-image: none;
+    border: none;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+.click2buy:hover {
+    background-color:#123c69!important;
+    background-image: none;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+}
+/*.buy {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}*/
+.click2add {
+    background-color:#337ab7!important;
+    background-image: none;
+    border: none;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+    margin-right: 15px;
+    vertical-align: middle;
+
+}
+.click2add:hover {
+    background-color:#123c69!important;
+    background-image: none;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+}
+#recommend {
+    background-color: #eee2dc;
+    width:100%;
+}
+#recommend h1 {
+    text-align: center;
+}
+#recommend p {
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+#recommend p .customer {
+    font-size: 30px!important;
+    color: #AC3B61;
+    border-bottom: none!important;
+}
+#recommend .note {
+    border-bottom: 1px solid #AC3B61;
 }
