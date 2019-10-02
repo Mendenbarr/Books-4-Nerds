@@ -318,8 +318,13 @@ div #review strong {
     border: none;
     -webkit-transition: 0.1s;
     transition: 0.1s;
-    margin-right: 15px;
+    
     vertical-align: middle;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+    display: block;
 }
 .click2buy:hover {
     background-color:#123c69!important;
@@ -445,12 +450,14 @@ div #review strong {
     color: #fff;
 }
 .itempic img{
-    height: 200px;
-    margin: 15px;
+    height: 300px;
+    margin: auto;
+    width: auto;
+    display: block;
 }
 .iteminfo {
     margin-top: 15px;
-    text-align: center;
+    text-align: right;
 }
 #checkout{
     margin-top: 40px;
@@ -464,6 +471,7 @@ div #review strong {
     font-family: 'Montserrat', sans-serif;
     font-size: 36px;
     color: #AC3B61;
+    
     
 }
 .check h2 {
