@@ -512,3 +512,35 @@ div #review strong {
 .question {
 
 }
+.about {
+    background-color: #AC3B61;
+    padding-top: 30px;
+}
+.about .container {
+    color:#eee2dc;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+.about h1 {
+    font-size: 48px;
+    color: #337ab7;
+}
+.about h2 {
+    font-size: 18px;
+}
+.about p {
+    font-size: 16px;
+}
+.placeholder img{
+    width: auto;
+    height: 200px;
+}
+.placeholder {
+    background-color: #eee2dc;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    padding-bottom: 35px;
+}
+.placeholder h2 {
+    color: #AC3B61;
+}
