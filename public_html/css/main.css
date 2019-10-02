@@ -142,9 +142,7 @@ hr {
 
 }
 .shop img:hover {
-    width:60px;
-    border-radius: 13px;
-    border: 2px double #AC3B61;
+    width:63px;
     transition: 0.1s;
     -webkit-transition: 0.1s;
 }
