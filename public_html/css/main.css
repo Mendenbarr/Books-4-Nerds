@@ -462,10 +462,13 @@ div #review strong {
 #checkout{
     margin-top: 40px;
 }
-#checkpageimg {
-    vertical-align: middle;
-    width: 208.5px;
 
+#checkout img {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    min-width: 208.5px;
+    width: 300px;
 }
 .check h1{
     font-family: 'Montserrat', sans-serif;
