@@ -544,3 +544,27 @@ div #review strong {
 .placeholder h2 {
     color: #AC3B61;
 }
+.placeholder img {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.placeholder hr {
+    background-color: #AC3B61;
+}
+.click3 {
+    background-image: none!important;
+    background-color: red;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+}
+.click3:hover {
+    background-color: darkred;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+}
+@media (max-width: 767px) {
+    .sort p {
+        visibility:hidden;
+    }
+}
