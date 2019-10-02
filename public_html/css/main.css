@@ -2,10 +2,7 @@ html {
     background-color:#123c69;
     width:100%;
 }
-.container {
-    padding-left: 0!important;
-    padding-right: 0!important;
-}
+
 body {
     background-color: #123c69;
 }
@@ -131,16 +128,7 @@ hr {
     background-color: #FFF;
     height: 5px;
 }
-@media (max-width: 991px) {
-    /*    .form-group {
-            float:left!important;
-            max-width:150px!important;
-        }*/
-    /*    nav {
-            max-height: 85.16px!important;
-        }*/
 
-}
 .collapsed {
     z-index: 3;
 }
@@ -180,9 +168,12 @@ p {
     padding-right: 15px;
 }
 .sort {
-    width: 100%;
+    width: 100%!important;
+
+    margin-left: 0!important;
+    margin-right: 0!important;
+    padding:0!important;
     background-color: #AC3B61;
-    margin-top: 70px;
     height: 100px;
     position: -webkit-sticky;
     position: sticky;
@@ -193,7 +184,7 @@ p {
     padding-top: 15px;
     color: #eee2dc;
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 22px;
     text-align: center;
 }
 .sorted {
@@ -204,6 +195,7 @@ p {
     text-align: center;
     -webkit-transition: 0.1s;
     transition: 0.1s;
+    color: #337ab7;
 }
 .sorted p:hover {
     color: #fff;
@@ -211,7 +203,7 @@ p {
     transition: 0.1s;
 }
 .items {
-    padding-top: 30px;
+    padding-top: 40px;
 }
 .items h2 {
     font-family: 'Montserrat', sans-serif;
@@ -229,6 +221,14 @@ p {
     margin-right: auto;
     display: block;
     height: 150px;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+}
+.items img:hover {
+    height: 155px;
+    box-shadow: 5px 5px #333;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
 }
 #bookpageimg {
     width: 300px;
@@ -276,10 +276,12 @@ div #review strong {
     text-shadow: 1px 1px #333;
 }
 .related {
-    padding-left: 0!important;
-    padding-right: 0!important;
     background-color: #123c69;
-
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
 }
 .related img {
     height: 200px;
@@ -291,16 +293,19 @@ div #review strong {
     -webkit-transition:0.1s;
     transition:0.1s;
 }
-/*.related img:hover {
+.related img:hover {
     box-shadow: 5px 5px #333;
-    height: 140px;
+    height: 210px;
     -webkit-transition:0.1s;
     transition:0.1s;
-}*/
+}
+.related h1 {
+    text-align: center;
+}
 .related p {
     text-align: center!important;
 
-    font-size: 11px!important;
+    font-size: 14px!important;
 }
 .related .subtitle{
     padding-top: 20px!important;
@@ -345,20 +350,55 @@ div #review strong {
 #recommend {
     background-color: #eee2dc;
     width:100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #123c69;
 }
 #recommend h1 {
     text-align: center;
+    color: #AC3B61;
 }
-#recommend p {
+#recommend .rec h1 {
+    font-size: 24px;
+    text-align: left;
+}
+#recommend p{
     margin-left: 15px;
     margin-right: 15px;
 
 }
 #recommend p .customer {
-    font-size: 30px!important;
+    font-size: 35px!important;
     color: #AC3B61;
     border-bottom: none!important;
 }
-#recommend .note {
-    border-bottom: 1px solid #AC3B61;
+
+#recommend img .people {
+    width: 208.5px;
+    height: auto;
+    vertical-align: middle;
+}
+.rec {
+    border-bottom: 2px solid #AC3B61;
+    padding: 15px;
+    width: 100%;
+
+    display: table;
+}
+.rec .bio {
+    background-color: #123c69;
+    height:100%;
+    color: #fff;
+    border: 2px solid #fff;
+    vertical-align: middle;
+    text-align: center;
+}
+.bio-info {
+    background-color: #AC3B61
+}
+.rec h1 {
+    text-align: left;
+    
+}
+.rec .bio-info h2 {
+    font-size: 18px;
 }
