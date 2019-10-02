@@ -318,7 +318,7 @@ div #review strong {
     border: none;
     -webkit-transition: 0.1s;
     transition: 0.1s;
-    
+
     vertical-align: middle;
     margin-top: 15px;
     margin-right: auto;
@@ -465,14 +465,14 @@ div #review strong {
 #checkpageimg {
     vertical-align: middle;
     width: 208.5px;
-    
+
 }
 .check h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 36px;
     color: #AC3B61;
-    
-    
+
+
 }
 .check h2 {
     font-family: 'Montserrat', sans-serif;
@@ -481,4 +481,34 @@ div #review strong {
 }
 .confirm {
     margin-top: 15px;
+}
+.faq {
+    background-color: #123c69;
+    padding-top: 40px;
+
+}
+.faq .container {
+    color:#eee2dc;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+.faq h1 {
+    font-size: 48px;
+}
+.faq h2 {
+    font-size: 18px;
+    color: #BD4C72;
+}
+.faq .question h2{
+    font-size: 30px;
+}
+.faq .question h3 {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.faq p {
+    text-align: justify;
+}
+.question {
+
 }
