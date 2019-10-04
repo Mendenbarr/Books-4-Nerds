@@ -15,6 +15,34 @@ div .collapse {
 
     float:left;
 }
+@media (max-width: 767px) {
+    .nav-img {
+        width: 110px;
+        padding: 10px;
+        float:left;
+    }
+    .jumbotron h1 {
+        font-size: 50px!important;
+        font-weight: bolder;
+        font-family: 'Rock Salt', cursive;
+        text-align: center;
+    }
+    .jumbotron p {
+    color: #123c69;
+    font-size: 24px!important;
+    font-weight: normal!important;
+    text-align: center;
+    margin-top: 30px!important;
+}
+    .jumbotron img {
+        height: 300px!important;
+        width: auto!important;
+        margin-right: auto!important;
+        margin-left: auto!important;
+        display: block!important;
+        border: 5px solid #AC3B61;
+    }
+}
 .jumbotron {
     background-image: linear-gradient(rgba(238,226,220, 0.5) 25%, #FFF);
 
@@ -46,7 +74,7 @@ div .collapse {
 .jumbotron p #bold {
     font-weight: bolder;
 }
-.jumbotron .jumbo-image img {
+.jumbotron img {
     height: 500px;
     width: auto;
     margin-right: auto;
@@ -388,48 +416,6 @@ div #review strong {
 .related .subtitle{
     padding-top: 20px!important;
 }
-
-.click2buy {
-    background-color:#337ab7!important;
-    background-image: none;
-    border: none;
-    -webkit-transition: 0.1s;
-    transition: 0.1s;
-
-    vertical-align: middle;
-    margin-top: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    width: auto;
-    display: block;
-}
-.click2buy:hover {
-    background-color:#123c69!important;
-    background-image: none;
-    -webkit-transition: 0.1s;
-    transition: 0.1s;
-}
-/*.buy {
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
-}*/
-.click2add {
-    background-color:#337ab7!important;
-    background-image: none;
-    border: none;
-    -webkit-transition: 0.1s;
-    transition: 0.1s;
-    margin-right: 15px;
-    vertical-align: middle;
-
-}
-.click2add:hover {
-    background-color:#123c69!important;
-    background-image: none;
-    -webkit-transition: 0.1s;
-    transition: 0.1s;
-}
 .recommend {
     background-color: #FFF;
     width:100%;
@@ -450,14 +436,14 @@ div #review strong {
     .recommend .sticky {
         position: -webkit-sticky;
         position: sticky;
-        top:99px;
+        top:94px;
         background-color: #FFF;
         z-index: 5;
     }
     .book-content .sticky {
         position: -webkit-sticky;
         position: sticky;
-        top:99px;
+        top:94px;
         background-color: #FFF;
         z-index: 5;
     }
@@ -542,48 +528,89 @@ div #review strong {
     font-size: 18px;
     color: #FFF!important;
 }
+.cart {
+    padding-top: 30px;
+    background-image: linear-gradient(rgba(238,226,220, 0.5) 15%, #FFF);
+}
 .cart-title {
     text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #AC3B61;
+    font-size: 56px;
+    padding-top: 15px;
+    font-weight: bolder;
+
+
 }
 .item1 {
     background-color: #123c69;
     margin-top: 30px;
-    border: 2px solid #fff;
+    border: 2px solid #AC3B61;
     color: #fff;
 }
 .item2 {
     background-color: #123c69;
     margin-top: 30px;
-    border: 2px solid #fff;
+    border: 2px solid #AC3B61;
     color: #fff;
 }
 .item3 {
     background-color: #123c69;
     margin-top: 30px;
-    border: 2px solid #fff;
+    border: 2px solid #AC3B61;
     color: #fff;
 }
 .item4 {
     background-color: #123c69;
     margin-top: 30px;
-
-    border: 2px solid #fff;
+    border: 2px solid #AC3B61;
     color: #fff;
+    margin-bottom: 20px;
 }
 .itempic img{
-    height: 300px;
-    margin: auto;
-    width: auto;
-    display: block;
+    height: 150px;
+
 }
 .iteminfo {
     margin-top: 15px;
-    text-align: right;
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+
+}
+.remove1, .remove2, .remove3, .remove4 {
+    font-family: 'Playfair Display', serif;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 60px;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+}
+.remove1:active, .remove2:active, .remove3:active, .remove4:active {
+    visibility: hidden;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+
+}
+@media (max-width:767px) {
+    .itempic img{
+        height: 300px;
+        margin: auto;
+        width: auto;
+        display: block;
+    }
+    .item1, .item2, .item3, .item4 {
+        font-size: 20px;
+        text-align: center;
+    }
 }
 #checkout{
     margin-top: 40px;
 }
-
+.cart-checkout img {
+    height: 50px;
+    width: auto;
+}
 #checkout img {
     margin-right: auto;
     margin-left: auto;
