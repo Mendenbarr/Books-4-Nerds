@@ -749,6 +749,7 @@ div #review strong {
 .placeholder p {
     font-size: 16px;
     text-align: justify;
+    font-weight: normal;
 }
 .placeholder img {
     margin-right: auto;
