@@ -542,41 +542,26 @@ div #review strong {
 }
 .cart {
     padding-top: 30px;
-    background-image: linear-gradient(rgba(238,226,220, 0.5) 15%, #FFF);
+    background-color: #AC3B61;
 }
 .cart-title {
     text-align: center;
     font-family: 'Playfair Display', serif;
-    color: #AC3B61;
+    color: #eee2dc;
     font-size: 56px;
     padding-top: 15px;
     font-weight: bolder;
 
 
 }
-.item1 {
+.item1, .item2, .item3, .item4 {
     background-color: #123c69;
-    margin-top: 30px;
-    border: 2px solid #AC3B61;
+    margin-top: 15px;
+    border: 2px solid #eee2dc;
     color: #fff;
-}
-.item2 {
-    background-color: #123c69;
-    margin-top: 30px;
-    border: 2px solid #AC3B61;
-    color: #fff;
-}
-.item3 {
-    background-color: #123c69;
-    margin-top: 30px;
-    border: 2px solid #AC3B61;
-    color: #fff;
+    width: 100%;
 }
 .item4 {
-    background-color: #123c69;
-    margin-top: 30px;
-    border: 2px solid #AC3B61;
-    color: #fff;
     margin-bottom: 20px;
 }
 .itempic img{
