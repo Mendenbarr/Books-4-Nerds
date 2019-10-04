@@ -254,28 +254,80 @@ p {
     -webkit-transition: 0.1s;
     transition: 0.1s;
 }
+
+.book {
+    font-family: 'Playfair Display', serif;
+    background-color: #AC3B61;
+    padding-top: 50px;
+}
+.book h2 {
+    font-family: 'Playfair Display', serif;
+}
+.book .btns {
+    text-align: center;
+    margin-top: 20px;
+}
 #bookpageimg {
     width: 300px;
     margin-left:auto;
     margin-right: auto;
+    display: block;
+    vertical-align: middle;
+    margin-bottom: 10px;;
+    border: 5px solid #eee2dc;
 }
 #bookpagetitle {
     font-size: 36px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    color: #FFF;
+    font-weight: bolder;
 }
 #author, #isbn, #price, #avail {
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
     text-align: left;
-    font-weight: lighter;
+    font-weight: bold;
+    color: #FFF;
 
 }
-#review {
+.book-content {
+    font-family: 'Playfair Display', serif;
+    padding: 20px 0;
+
+}
+.book-content .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top:80px;
+    background-color: #FFF;
+    z-index: 5;
+}
+.book-content h1 {
+    color: #AC3B61;
+    font-weight: bolder;
+    font-size: 42px;
+    background-color: #FFF;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #123C69;
+
+
+}
+.book-content p {
+    color: #000;
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    font-weight: normal;
+}
+#review {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
     text-align: center;
-    font-weight: lighter;
+    font-weight: bold;
+    color: #FFF;
+
 }
 #bookinfo {
     background-color: #eee2dc;
@@ -284,7 +336,7 @@ p {
 }
 #bookpagedesc {
     background-color: #AC3B61;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-weight: bolder;
     width: 100%;
 }
@@ -305,7 +357,7 @@ div #review strong {
     width: 100%;
     margin: 0 auto;
     display: block;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
     color: #fff;
 }
 .related img {
@@ -325,6 +377,8 @@ div #review strong {
 }
 .related h1 {
     text-align: center;
+    font-weight: bolder;
+    font-size: 42px;
 }
 .related p {
     text-align: center!important;
@@ -379,10 +433,34 @@ div #review strong {
 .recommend {
     background-color: #FFF;
     width:100%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
-.recommend p {
-    padding-top: 15px;
+.recommend .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top:80px;
+    background-color: #FFF;
+    z-index: 5;
+
+}
+@media (max-width: 767px) {
+    .sort p {
+        visibility:hidden;
+    }
+    .recommend .sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top:99px;
+        background-color: #FFF;
+        z-index: 5;
+    }
+    .book-content .sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top:99px;
+        background-color: #FFF;
+        z-index: 5;
+    }
 }
 .recommend .bio strong {
     -webkit-transition: 0.1s;
@@ -394,17 +472,18 @@ div #review strong {
     transition: 0.1s;
 }
 .recommend h1 {
-
+    font-size: 42px;
     text-align: center;
     color: #AC3B61;
+    font-weight: bolder;
+    background-color: #FFF;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #123C69;
 }
 .recommend .rec h1 {
     font-size: 24px;
     text-align: left;
 }
-
-
-
 .recommend img{
     width: 208.5px;
     height: auto;
@@ -412,6 +491,20 @@ div #review strong {
     margin: auto auto;
     display: block;
     border: 5px solid #AC3B61;
+}
+.recommend .content p {
+    font-size: 16px;
+    padding-top: 15px;
+}
+.recommend .content h2 {
+    padding-left: 15px;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #AC3B61;
+}
+.recommend strong {
+    text-shadow: 1px 1px #333;
+
 }
 .rec {
     border-bottom: 2px solid #AC3B61;
@@ -431,7 +524,8 @@ div #review strong {
     vertical-align: middle;
     margin-right: auto;
     margin-left: auto;
-    display: block
+    display: block;
+    border: 5px solid #123C69;
 }
 .bio-info {
     background-color: #AC3B61
@@ -441,7 +535,12 @@ div #review strong {
 
 }
 .rec .bio-info h2 {
+    font-size: 24px;
+    color: #FFF!important;
+}
+.rec .bio-info p {
     font-size: 18px;
+    color: #FFF!important;
 }
 .cart-title {
     text-align: center;
@@ -493,14 +592,14 @@ div #review strong {
     width: 300px;
 }
 .check h1{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 36px;
     color: #AC3B61;
 
 
 }
 .check h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 18px;
     color: #123c69;
 }
@@ -514,7 +613,7 @@ div #review strong {
 }
 .faq .container {
     color:#eee2dc;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-weight: bolder;
 }
 .faq h1 {
@@ -543,7 +642,7 @@ div #review strong {
 }
 .about .container {
     color:#eee2dc;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-weight: bolder;
 }
 .about h1 {
@@ -562,7 +661,7 @@ div #review strong {
 }
 .placeholder {
     background-color: #eee2dc;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-weight: bolder;
     padding-bottom: 35px;
 }
