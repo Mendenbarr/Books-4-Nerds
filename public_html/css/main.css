@@ -4,25 +4,55 @@ html {
 }
 
 body {
-    background-color: #123c69;
+    background-color: #FFF;;
 }
-nav {
 
+div .collapse {
+    border-bottom: 2px solid #123C69;
 }
 .nav-img {
-    width: 80px;
-    margin: 10px;
+    width: 120px;
+
     float:left;
 }
 .jumbotron {
-    background-color: #AC3B61;
+    background-image: linear-gradient(rgba(238,226,220, 0.5) 25%, #FFF);
+
     /*    background-image: linear-gradient(#edc7b7, #eee2dc);*/
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 
 }
 .jumbotron .container {
-    color:#eee2dc;
-    font-family: 'Montserrat', sans-serif;
+    color:#AC3B61;
+    font-family: 'Playfair Display', serif;
+    width: 87%;
     font-weight: bolder;
+}
+.jumbotron h1 {
+    font-size: 72px;
+    font-weight: bolder;
+    font-family: 'Rock Salt', cursive;
+}
+.jumbotron p {
+    color: #123c69;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 60px;
+}
+.jumbotron p #bold {
+    font-weight: bolder;
+}
+.jumbotron .jumbo-image img {
+    height: 500px;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border: 5px solid #AC3B61;
 }
 .click1 {
     background-color:#337ab7!important;
@@ -38,10 +68,23 @@ nav {
     transition: 0.1s;
 }
 .landing-content {
-    background-color: #eee2dc;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
+    background-color: #FFF;;
+    font-family: 'Playfair Display', serif;
     padding-bottom: 35px;
+}
+.landing-content .row h1 {
+    font-weight: normal;
+    text-align: center;
+    font-size: 48px;
+    color: #123c69;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #edc7b7;
+}
+.landing-content h2 {
+    font-weight: bolder;
+    color: #AC3B61;
+    text-align: center;
+    height: 60px;
 }
 .landing-content img {
     height: 150px;
@@ -51,36 +94,16 @@ nav {
     margin-bottom: 10px;
 
 }
-.click2 {
-
-}
-div div p a {
-    margin-left: auto;
-    margin-right: auto;
-}
-.row h1 {
-    text-align: center;
-    font-size: 48px;
-    color: #AC3B61;
-    padding-bottom: 30px;
-    border-bottom: 2px solid #333;
-}
-.row h2 {
-    color: #123c69;
-    text-align: center;
-    height: 60px;
-}
-.row p {
-    color: #123c69;
+.landing-content .row p {
+    color: #000;
+    font-weight: normal;
+    font-size: 17px;
     text-align: justify;
 }
-nav {
-    background-color:#edc7b7;
-    border-bottom: 2px dashed #AC3B61;
+.landing-content p a{
+    text-align: center!important;
 }
-body {
-    background-color: #eee2dc;
-}
+
 footer{
     height: 180px;
     bottom:0;
@@ -95,20 +118,23 @@ footer{
 footer p {
     text-align: center;
     padding-top: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-weight: bolder;
+    font-size: 20px;
+
 }
-footer p .link {
-    font-size: 16px;
+footer p a {
+    color: #EDC7B7;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+    text-decoration: none;
 }
-/*p .link a:hover {
-    -webkit-transition: 2s;
-    transition: 2s;
+footer p a:hover {
     color: #AC3B61;
+    text-decoration: none;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
 }
-p .link a:active {
-    color: #AC3B61;
-}*/
 .footer-content {
 
 }
@@ -122,6 +148,7 @@ footer div img {
     margin-right: auto;
     margin-left: auto;
     display: block;
+    margin-top: 30px;
 }
 hr {
     background-color: #FFF;
@@ -271,7 +298,6 @@ p {
     color: #fff;
 }
 div #review strong {
-    color: gold;
     text-shadow: 1px 1px #333;
 }
 .related {
@@ -293,8 +319,7 @@ div #review strong {
     transition:0.1s;
 }
 .related img:hover {
-    box-shadow: 5px 5px #333;
-    height: 210px;
+    border: 3px solid #AC3B61;
     -webkit-transition:0.1s;
     transition:0.1s;
 }
@@ -304,7 +329,7 @@ div #review strong {
 .related p {
     text-align: center!important;
 
-    font-size: 14px!important;
+    font-size: 18px!important;
 }
 .related .subtitle{
     padding-top: 20px!important;
@@ -352,7 +377,7 @@ div #review strong {
     transition: 0.1s;
 }
 .recommend {
-    background-color: #eee2dc;
+    background-color: #FFF;
     width:100%;
     font-family: 'Montserrat', sans-serif;
 }
@@ -384,10 +409,9 @@ div #review strong {
     width: 208.5px;
     height: auto;
     vertical-align: middle;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto auto;
     display: block;
-    border: 2px solid #fff;
+    border: 5px solid #AC3B61;
 }
 .rec {
     border-bottom: 2px solid #AC3B61;

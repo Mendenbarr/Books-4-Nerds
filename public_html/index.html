@@ -14,6 +14,9 @@
               type="image/png" 
               href="Images/books4nerds_secondary_black_transparent.png">
         <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
+        <link    href="https://fonts.googleapis.com/css?family=Alegreya|Crimson+Text:400i|EB+Garamond|Laila:300|Playfair+Display&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps|Rochester|Rock+Salt|Satisfy|Sunshiney&display=swap" rel="stylesheet">
+
         <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <style>
@@ -60,7 +63,7 @@
                         <div class="form-group">
                             <input type="password" placeholder="Password" class="form-control">
                         </div>
-                        <button type="submit" class="btn btn-success click1">Sign in</button>
+                        <button type="submit" class="btn btn-primary">Sign in</button>
                         <div class="form-group shop">
                             <a href="cart.html"><img src="Images/shopcart.png" alt="Shopping Cart"/></a>
                         </div>
@@ -74,14 +77,17 @@
         <!-- Main jumbotron for a primary marketing message or call to action -->
         <div class="jumbotron">
             <div class="container">
-                <h1>Deal of The Day</h1>
-                <p> Book: Killer Interactive Sites</p>
-                <p>15% Off + Free Shipping</p>
-                <br>
-                <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-                <p><a class="btn btn-primary btn-lg click1" href="book.html" role="button">View Book &raquo;</a></p>
-                <p><a class="btn btn-primary btn-sm click3" href="search.html" role="button">For Search Pres. &raquo;</a></p>
-
+                <div class="jumbo-content col-lg-8">
+                    <h1>Deal of The Day</h1>
+                    <p><strong>Creating Killer Interactive Sites</strong></p>
+                    <p>15% Off + Free Shipping</p>
+                    <br>
+                    <p class="col-md-6"><a class="btn btn-primary btn-lg" href="book.html" role="button">View Book &raquo;</a></p>
+                    <p class="col-md-6"><a class="btn btn-primary btn-sm" href="search.html" role="button">For Search Results &raquo;</a></p>
+                </div>
+                <div class="jumbo-image col-lg-4">
+                    <img src="Images/bookimg/KillerInteractiveSites.gif" alt=""/>
+                </div>
             </div>
         </div>
         <div class="container landing-content">
@@ -93,20 +99,20 @@
                 <div class="col-md-4">
                     <h2>Elements of Web Design</h2>
                     <img src="Images/bookimg/ElementsOfWebDesign.gif" alt=""/>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn btn-default click2" href="book.html" role="button">Purchase Book &raquo;</a></p>
+                    <p id="justify">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn btn-md btn-primary" href="book.html" role="button">View Book &raquo;</a></p>
                 </div>
                 <div class="col-md-4">
                     <h2>The Practical SQL</h2>
                     <img src="Images/bookimg/PracticalSQL.JPG" alt=""/>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn btn-default click2" href="book.html" role="button">Purchase Book &raquo;</a></p>
+                    <p id="justify">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn btn-md btn-primary" href="book.html" role="button">View Book &raquo;</a></p>
                 </div>
                 <div class="col-md-4">
                     <h2>The Non-Designer's Web Book</h2>
                     <img src="Images/bookimg/NonDesignerWebBook.gif" alt=""/>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                    <p><a class="btn btn-default click2" href="book.html" role="button">Purchase Book &raquo;</a></p>
+                    <p id="justify">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    <p><a class="btn btn-md btn-primary" href="book.html" role="button">View Book &raquo;</a></p>
                 </div>
             </div>
         </div>
