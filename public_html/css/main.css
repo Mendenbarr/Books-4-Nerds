@@ -12,8 +12,15 @@ div .collapse {
 }
 .nav-img {
     width: 120px;
-
+    -webkit-transition: 0.05s;
+    transition: 0.05s;
     float:left;
+    background-image: none;
+}
+.nav-img:hover {
+    opacity: 0.5;
+    -webkit-transition: 0.05s;
+    transition: 0.05s;
 }
 @media (max-width: 767px) {
     .nav-img {
@@ -44,8 +51,7 @@ div .collapse {
     }
 }
 .jumbotron {
-    background-image: linear-gradient(rgba(238,226,220, 0.5) 25%, #FFF);
-
+    background-color: #AC3B61;
     /*    background-image: linear-gradient(#edc7b7, #eee2dc);*/
     width: 100%;
     margin-left: auto;
@@ -54,7 +60,7 @@ div .collapse {
 
 }
 .jumbotron .container {
-    color:#AC3B61;
+    color:#eee2dc;
     font-family: 'Playfair Display', serif;
     width: 87%;
     font-weight: bolder;
@@ -65,7 +71,7 @@ div .collapse {
     font-family: 'Rock Salt', cursive;
 }
 .jumbotron p {
-    color: #123c69;
+    color: #FFF;
     font-size: 30px;
     font-weight: normal;
     text-align: center;
@@ -332,14 +338,14 @@ p {
     z-index: 5;
 }
 .book-content h1 {
-    color: #AC3B61;
-    font-weight: bolder;
+    color: #123C69;
+    font-weight: normal;
     font-size: 42px;
     background-color: #FFF;
     margin-left: 15px;
     margin-right: 15px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #123C69;
+    border-bottom: 1px solid #EDC7B7;
 
 
 }
@@ -405,7 +411,7 @@ div #review strong {
 }
 .related h1 {
     text-align: center;
-    font-weight: bolder;
+    font-weight: normal;
     font-size: 42px;
 }
 .related p {
@@ -460,11 +466,11 @@ div #review strong {
 .recommend h1 {
     font-size: 42px;
     text-align: center;
-    color: #AC3B61;
-    font-weight: bolder;
+    color: #123C69;
+    font-weight: normal;
     background-color: #FFF;
     padding-bottom: 10px;
-    border-bottom: 1px solid #123C69;
+    border-bottom: 1px solid #EDC7B7;
 }
 .recommend .rec h1 {
     font-size: 24px;
@@ -667,34 +673,38 @@ div #review strong {
     margin-top: 15px;
 }
 .faq {
-    background-color: #123c69;
     padding-top: 40px;
-
-}
-.faq .container {
     color:#eee2dc;
+    background-color: #AC3B61;
     font-family: 'Playfair Display', serif;
-    font-weight: bolder;
 }
 .faq h1 {
     font-size: 48px;
+    font-weight: bolder;
 }
 .faq h2 {
     font-size: 18px;
-    color: #BD4C72;
+    color: #eee2dc;
 }
-.faq .question h2{
+.question h2{
     font-size: 30px;
-}
-.faq .question h3 {
-    font-size: 15px;
-    color: rgba(255, 255, 255, 0.5);
-}
-.faq p {
-    text-align: justify;
+    color: #123C69;
+    font-weight: bolder;
 }
 .question {
+    border-bottom: 1px solid #edc7b7;
+}
+.question h3 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.question p {
+    font-size: 16px;
+}
 
+.questions {
+    background-color: #FFF;
+    font-family: 'Playfair Display', serif;
 }
 .about {
     background-color: #AC3B61;
@@ -705,47 +715,57 @@ div #review strong {
     font-family: 'Playfair Display', serif;
     font-weight: bolder;
 }
-.about h1 {
-    font-size: 48px;
-    color: #337ab7;
-}
-.about h2 {
-    font-size: 18px;
-}
-.about p {
-    font-size: 16px;
-}
+
 .placeholder img{
     width: auto;
     height: 200px;
 }
 .placeholder {
-    background-color: #eee2dc;
+    background-color: #FFF;
     font-family: 'Playfair Display', serif;
     font-weight: bolder;
     padding-bottom: 35px;
+    margin-top: 30px;
+}
+.placeholder h1 {
+    font-size: 64px;
+    color: #AC3B61;
+    text-align: center;
 }
 .placeholder h2 {
-    color: #AC3B61;
+    color: #123C69;
+    font-size: 42px;
+    font-weight: normal;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #edc7b7;
+    text-align: center;
+}
+.placeholder p {
+    font-size: 16px;
+    text-align: justify;
 }
 .placeholder img {
     margin-right: auto;
     margin-left: auto;
     display: block;
 }
-.placeholder hr {
+.contact {
     background-color: #AC3B61;
+    font-family: 'Playfair Display', serif;
+    padding-top: 40px;
 }
-.click3 {
-    background-image: none!important;
-    background-color: red;
-    -webkit-transition: 0.1s;
-    transition: 0.1s;
+.contact h1 {
+    font-size: 54px;
+    color: #eee2dc;
+    text-align: center;
+
 }
-.click3:hover {
-    background-color: darkred;
-    -webkit-transition: 0.1s;
-    transition: 0.1s;
+
+.contact p {
+    font-size: 16px;
+    color: #eee2dc;
+    text-align: center;
+
 }
 @media (max-width: 767px) {
     .sort p {
