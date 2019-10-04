@@ -28,12 +28,12 @@ div .collapse {
         text-align: center;
     }
     .jumbotron p {
-    color: #123c69;
-    font-size: 24px!important;
-    font-weight: normal!important;
-    text-align: center;
-    margin-top: 30px!important;
-}
+        color: #123c69;
+        font-size: 24px!important;
+        font-weight: normal!important;
+        text-align: center;
+        margin-top: 30px!important;
+    }
     .jumbotron img {
         height: 300px!important;
         width: auto!important;
@@ -607,22 +607,55 @@ div #review strong {
 #checkout{
     margin-top: 40px;
 }
-.cart-checkout img {
-    height: 50px;
-    width: auto;
-}
-#checkout img {
-    margin-right: auto;
-    margin-left: auto;
+.cart-checkout {
+    background-color: #AC3B61;
+    width: 100%;
+    margin: 0 auto;
     display: block;
-    min-width: 208.5px;
-    width: 300px;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+
+
+.cart-checkout h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 32px;
+}
+.cart-checkout p {
+    text-align: center!important;
+
+    font-size: 16px!important;
+}
+.cart-checkout .subtitle{
+    padding-top: 10px!important;
+}
+#checkout .cart-checkout img {
+    width: auto;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    vertical-align: middle!important;
+    margin-top: 20px;
+    -webkit-transition:0.1s;
+    transition:0.1s;
+}
+.cart-checkout img:hover {
+    border: 3px solid #123C69;
+    -webkit-transition:0.1s;
+    transition:0.1s;
+}
+.check {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .check h1{
     font-family: 'Playfair Display', serif;
     font-size: 36px;
     color: #AC3B61;
-
+    font-weight: bolder;
+    text-align: center;
 
 }
 .check h2 {
