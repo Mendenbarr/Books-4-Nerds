@@ -240,8 +240,8 @@ p {
 }
 .sort h1 {
     padding-top: 15px;
-    color: #eee2dc;
-    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    font-family: 'Playfair Display', serif;
     font-size: 22px;
     text-align: center;
 }
@@ -249,14 +249,14 @@ p {
     display: inline-block;
 }
 .sorted p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
     text-align: center;
     -webkit-transition: 0.1s;
     transition: 0.1s;
-    color: #337ab7;
+    color: #FFF;;
 }
 .sorted p:hover {
-    color: #fff;
+    text-decoration: underline;
     -webkit-transition: 0.1s;
     transition: 0.1s;
 }
@@ -264,10 +264,16 @@ p {
     padding-top: 40px;
 }
 .items h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: bolder;
     height: 40px;
+}
+.items p {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #123C69;
 }
 .items p .click2 {
     margin-left: auto;
@@ -283,8 +289,7 @@ p {
     transition: 0.1s;
 }
 .items img:hover {
-    height: 155px;
-    box-shadow: 5px 5px #333;
+    border: 5px solid #AC3B61;
     -webkit-transition: 0.1s;
     transition: 0.1s;
 }
@@ -346,6 +351,7 @@ p {
     margin-right: 15px;
     padding-bottom: 10px;
     border-bottom: 1px solid #EDC7B7;
+    text-align: center;
 
 
 }
@@ -405,7 +411,7 @@ div #review strong {
     transition:0.1s;
 }
 .related img:hover {
-    border: 3px solid #AC3B61;
+    border: 5px solid #AC3B61;
     -webkit-transition:0.1s;
     transition:0.1s;
 }
@@ -647,7 +653,7 @@ div #review strong {
     transition:0.1s;
 }
 .cart-checkout img:hover {
-    border: 3px solid #123C69;
+    border: 5px solid #123C69;
     -webkit-transition:0.1s;
     transition:0.1s;
 }
