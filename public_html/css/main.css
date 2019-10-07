@@ -1,5 +1,5 @@
 html {
-    background-color:#123c69;
+    background-color:#EDC7B7;
     width:100%;
 }
 
@@ -12,12 +12,15 @@ div .collapse {
 }
 .nav-img {
     width: 120px;
-    -webkit-transition: 0.05s;
-    transition: 0.05s;
+
     float:left;
     background-image: none;
 }
-.nav-img:hover {
+.nav-img, footer div img {
+    -webkit-transition: 0.05s;
+    transition: 0.05s;
+}
+.nav-img:hover, footer div img:hover {
     opacity: 0.5;
     -webkit-transition: 0.05s;
     transition: 0.05s;
@@ -51,27 +54,32 @@ div .collapse {
     }
 }
 .jumbotron {
-    background-color: #AC3B61;
+    background-color: #FFF;
     /*    background-image: linear-gradient(#edc7b7, #eee2dc);*/
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: block;
 
+
 }
 .jumbotron .container {
-    color:#eee2dc;
     font-family: 'Playfair Display', serif;
     width: 87%;
     font-weight: bolder;
+    color: #AC3B61;
+    border-bottom: 1px solid #AC3B61;
+    padding-bottom: 15px;
 }
 .jumbotron h1 {
     font-size: 72px;
     font-weight: bolder;
     font-family: 'Rock Salt', cursive;
+    text-align: center;
+
 }
 .jumbotron p {
-    color: #FFF;
+    color: #123C69;
     font-size: 30px;
     font-weight: normal;
     text-align: center;
@@ -112,7 +120,7 @@ div .collapse {
     font-size: 48px;
     color: #123c69;
     padding-bottom: 30px;
-    border-bottom: 2px solid #edc7b7;
+    border-bottom: 1px solid #AC3B61;
 }
 .landing-content h2 {
     font-weight: bolder;
@@ -139,12 +147,11 @@ div .collapse {
 }
 
 footer{
-    height: 180px;
     bottom:0;
     margin-bottom:0;
     padding-bottom: 0;
     position: relative;
-    background-color: #123c69;
+    background-color: #EDC7B7;
     color: #FFF;
     width: 100%
 
@@ -158,7 +165,7 @@ footer p {
 
 }
 footer p a {
-    color: #EDC7B7;
+    color: #123C69;
     -webkit-transition: 0.1s;
     transition: 0.1s;
     text-decoration: none;
@@ -176,13 +183,13 @@ footer p a:hover {
     font-size: 18px;
     text-align: left;
     bottom: 0;
+    color: #123C69;
 }
 footer div img {
-    width: 100px;
+    width: 120px;
     margin-right: auto;
     margin-left: auto;
     display: block;
-    margin-top: 30px;
 }
 hr {
     background-color: #FFF;
@@ -317,11 +324,21 @@ p {
 
 .book {
     font-family: 'Playfair Display', serif;
-    background-color: #AC3B61;
+    background-color: #FFF;
+    color: #AC3B61;
     padding-top: 50px;
 }
 .book h2 {
     font-family: 'Playfair Display', serif;
+
+}
+#author, #isbn, #price, #avail {
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    font-weight: bold;
+    color: #123C69;
+
 }
 .book .btns {
     text-align: center;
@@ -333,24 +350,17 @@ p {
     margin-right: auto;
     display: block;
     vertical-align: middle;
-    margin-bottom: 10px;;
-    border: 5px solid #eee2dc;
+    margin-bottom: 20px;
+    border: 5px solid #AC3B61;
 }
 #bookpagetitle {
     font-size: 36px;
     text-align: center;
     font-family: 'Playfair Display', serif;
-    color: #FFF;
+    color: #AC3B61;
     font-weight: bolder;
 }
-#author, #isbn, #price, #avail {
-    font-size: 16px;
-    font-family: 'Playfair Display', serif;
-    text-align: left;
-    font-weight: bold;
-    color: #FFF;
 
-}
 .book-content {
     font-family: 'Playfair Display', serif;
     padding: 20px 0;
@@ -371,7 +381,7 @@ p {
     margin-left: 15px;
     margin-right: 15px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #EDC7B7;
+    border-bottom: 1px solid #AC3B61;
     text-align: center;
 
 
@@ -387,7 +397,7 @@ p {
     font-family: 'Playfair Display', serif;
     text-align: center;
     font-weight: bold;
-    color: #FFF;
+    color: #123C69;
 
 }
 #bookinfo {
@@ -414,12 +424,12 @@ div #review strong {
     text-shadow: 1px 1px #333;
 }
 .related {
-    background-color: #123c69;
+    background-color: #EDC7B7;
     width: 100%;
     margin: 0 auto;
     display: block;
     font-family: 'Playfair Display', serif;
-    color: #fff;
+    color: #123C69;
 }
 .related img {
     height: 200px;
@@ -443,7 +453,7 @@ div #review strong {
 }
 .related p {
     text-align: center!important;
-
+    font-weight: bold;
     font-size: 18px!important;
 }
 .related .subtitle{
@@ -497,7 +507,7 @@ div #review strong {
     font-weight: normal;
     background-color: #FFF;
     padding-bottom: 10px;
-    border-bottom: 1px solid #EDC7B7;
+    border-bottom: 1px solid #AC3B61;
 }
 .recommend .rec h1 {
     font-size: 24px;
@@ -526,7 +536,6 @@ div #review strong {
 
 }
 .rec {
-    border-bottom: 2px solid #AC3B61;
     padding: 15px;
     width: 100%;
 
