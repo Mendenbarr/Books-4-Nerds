@@ -156,7 +156,7 @@ footer{
     margin-bottom:0;
     padding-bottom: 0;
     position: relative;
-    background-color: #F4E4C1;
+    background-color: #222;
     width: 100%;
     border-top: 1px solid #123C69;
 }
@@ -169,7 +169,7 @@ footer p {
 
 }
 footer p a {
-    color: #123C69;
+    color: #eee2dc;
     -webkit-transition: 0.1s;
     transition: 0.1s;
     text-decoration: none;
