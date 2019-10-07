@@ -8,7 +8,7 @@ body {
 }
 
 div .collapse {
-    border-bottom: 2px solid #123C69;
+    border-bottom: 1px solid #123C69;
 }
 .nav-img {
     width: 120px;
@@ -255,22 +255,22 @@ p {
 }
 .sort {
     width: 100%!important;
-
     margin-left: 0!important;
     margin-right: 0!important;
     padding:0!important;
-    background-color: #AC3B61;
-    height: 100px;
+    background-color: #FFF;
+    height: 110px;
     position: -webkit-sticky;
     position: sticky;
     z-index: 3;
     top:81px;
+    border-bottom: 1px solid #AC3B61;
 }
 .sort h1 {
     padding-top: 15px;
-    color: #FFF;
+    color: #AC3B61;
     font-family: 'Playfair Display', serif;
-    font-size: 22px;
+    font-size: 30px;
     text-align: center;
 }
 .sorted {
@@ -281,7 +281,9 @@ p {
     text-align: center;
     -webkit-transition: 0.1s;
     transition: 0.1s;
-    color: #FFF;;
+    color: #123C69;
+    font-size: 16px;
+    font-weight: bold;
 }
 .sorted p:hover {
     text-decoration: underline;
