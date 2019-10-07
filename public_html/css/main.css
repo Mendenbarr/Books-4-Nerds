@@ -1,14 +1,20 @@
 html {
-    background-color:#EDC7B7;
+    background-color: #FFF;
     width:100%;
 }
 
 body {
-    background-color: #FFF;;
+    background-color: #222;
 }
 
+div .navbar-header {
+    background-color: #222;
+}
 div .collapse {
-    border-bottom: 1px solid #123C69;
+   
+
+}
+.navbar-fixed-top {
 }
 .nav-img {
     width: 120px;
@@ -54,8 +60,8 @@ div .collapse {
     }
 }
 .jumbotron {
-    background-color: #FFF;
-    /*    background-image: linear-gradient(#edc7b7, #eee2dc);*/
+/*    background-color: #F4E4C1;*/
+        background-image: linear-gradient(#F4E4C1, #222);
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -67,19 +73,18 @@ div .collapse {
     font-family: 'Playfair Display', serif;
     width: 87%;
     font-weight: bolder;
-    color: #AC3B61;
     border-bottom: 1px solid #AC3B61;
     padding-bottom: 15px;
+        color: #222;
+
 }
 .jumbotron h1 {
-    font-size: 72px;
+    font-size: 56px;
     font-weight: bolder;
     font-family: 'Rock Salt', cursive;
     text-align: center;
-
 }
 .jumbotron p {
-    color: #123C69;
     font-size: 30px;
     font-weight: normal;
     text-align: center;
@@ -110,7 +115,7 @@ div .collapse {
     transition: 0.1s;
 }
 .landing-content {
-    background-color: #FFF;;
+    background-color: #222;
     font-family: 'Playfair Display', serif;
     padding-bottom: 35px;
 }
@@ -118,7 +123,7 @@ div .collapse {
     font-weight: normal;
     text-align: center;
     font-size: 48px;
-    color: #123c69;
+    color: #EEE2dc;
     padding-bottom: 30px;
     border-bottom: 1px solid #AC3B61;
 }
@@ -137,7 +142,7 @@ div .collapse {
 
 }
 .landing-content .row p {
-    color: #000;
+    color: #eee2dc;
     font-weight: normal;
     font-size: 17px;
     text-align: justify;
@@ -151,10 +156,9 @@ footer{
     margin-bottom:0;
     padding-bottom: 0;
     position: relative;
-    background-color: #EDC7B7;
-    color: #FFF;
-    width: 100%
-
+    background-color: #F4E4C1;
+    width: 100%;
+    border-top: 1px solid #123C69;
 }
 footer p {
     text-align: center;
@@ -181,7 +185,7 @@ footer p a:hover {
 }
 .copyright {
     font-size: 18px;
-    text-align: left;
+    text-align: center;
     bottom: 0;
     color: #123C69;
 }
@@ -222,17 +226,17 @@ hr {
     position: absolute;
     top: 20px;
     right: 90px;
-        
+
 }
 
 @media (max-width: 767px) {
-.mobile-form-group{
-    display:block;
-}
-.btn-primary-signin{
-    top:auto;
-    bottom: 32px;
-}
+    .mobile-form-group{
+        display:block;
+    }
+    .btn-primary-signin{
+        top:auto;
+        bottom: 32px;
+    }
 }
 
 .form-group input {
@@ -299,11 +303,13 @@ p {
     font-size: 22px;
     font-weight: bolder;
     height: 40px;
+    color: #123C69;
 }
 .items p {
     font-family: 'Playfair Display', serif;
     font-size: 16px;
     color: #123C69;
+    font-weight: bold;
 }
 .items p .click2 {
     margin-left: auto;
@@ -326,9 +332,9 @@ p {
 
 .book {
     font-family: 'Playfair Display', serif;
-    background-color: #FFF;
+    background-color: #F4E4C1;
     color: #AC3B61;
-    padding-top: 50px;
+    padding-top: 70px;
 }
 .book h2 {
     font-family: 'Playfair Display', serif;
@@ -356,11 +362,12 @@ p {
     border: 5px solid #AC3B61;
 }
 #bookpagetitle {
-    font-size: 36px;
+    font-size: 48px;
     text-align: center;
     font-family: 'Playfair Display', serif;
     color: #AC3B61;
     font-weight: bolder;
+    padding-bottom: 30px;
 }
 
 .book-content {
@@ -379,7 +386,7 @@ p {
     color: #123C69;
     font-weight: normal;
     font-size: 42px;
-    background-color: #FFF;
+    background-color: #F4E4C1;
     margin-left: 15px;
     margin-right: 15px;
     padding-bottom: 10px;
@@ -407,31 +414,18 @@ p {
     padding-top: 60px;
     padding-bottom: 35px;
 }
-#bookpagedesc {
-    background-color: #AC3B61;
-    font-family: 'Playfair Display', serif;
-    font-weight: bolder;
-    width: 100%;
-}
-
-#bookpagedesc .row2 h1, #bookpagedesc .desc h1 {
-    text-align: center;
-    color: #fff;
-}
-#bookpagedesc .row2 p, #bookpagedesc .desc p {
-    text-align: justify;
-    color: #fff;
-}
 div #review strong {
     text-shadow: 1px 1px #333;
 }
 .related {
-    background-color: #EDC7B7;
+    background-color: #FFF;
     width: 100%;
     margin: 0 auto;
     display: block;
     font-family: 'Playfair Display', serif;
     color: #123C69;
+    border-top: 1px solid #123C69;
+    border-bottom: 1px solid #123C69;
 }
 .related img {
     height: 200px;
@@ -462,7 +456,7 @@ div #review strong {
     padding-top: 20px!important;
 }
 .recommend {
-    background-color: #FFF;
+    background-color: #F4E4C1;
     width:100%;
     font-family: 'Playfair Display', serif;
 }
@@ -470,7 +464,7 @@ div #review strong {
     position: -webkit-sticky;
     position: sticky;
     top:80px;
-    background-color: #FFF;
+    background-color: #F4E4C1;
     z-index: 5;
 
 }
@@ -507,7 +501,7 @@ div #review strong {
     text-align: center;
     color: #123C69;
     font-weight: normal;
-    background-color: #FFF;
+    background-color: #F4E4C1;
     padding-bottom: 10px;
     border-bottom: 1px solid #AC3B61;
 }
@@ -525,6 +519,7 @@ div #review strong {
 }
 .recommend .content p {
     font-size: 16px;
+    font-weight: bold;
     padding-top: 15px;
 }
 .recommend .content h2 {
