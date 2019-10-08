@@ -4,18 +4,23 @@ html {
 }
 
 body {
-    background-color: #222;
+    background-color: #FFF;
 }
 
 nav .container{
-    border-bottom: 1px solid #EEE2dc;
+    border-bottom: 1px solid #3285DF;
 
+}
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 div .collapse {
 
 
 }
 .navbar-fixed-top {
+    height: 97.75px;
 }
 .nav-img {
     width: 120px;
@@ -41,7 +46,7 @@ div .collapse {
     .jumbotron h1 {
         font-size: 50px!important;
         font-weight: bolder;
-        font-family: 'Rock Salt', cursive;
+        font-family: 'Miniver', cursive;    
         text-align: center;
     }
     .jumbotron p {
@@ -62,27 +67,21 @@ div .collapse {
 }
 .jumbotron {
     /*    background-color: #F4E4C1;*/
-    background-image: radial-gradient(#444 5%, #222);
+    background-color: #F4E4C1;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    border-bottom: 1px solid #DF3770;
-
-
 }
 .jumbotron .container {
     font-family: 'Playfair Display', serif;
     width: 87%;
     font-weight: bolder;
-    padding-bottom: 15px;
-    text-shadow: 10px 10px 9px #111;
-
 }
 .jumbotron h1 {
-    font-size: 56px;
+    font-size: 84px;
     font-weight: bolder;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Miniver', cursive;    
     text-align: center;
     color:#DF3770;
 }
@@ -91,7 +90,7 @@ div .collapse {
     font-weight: normal;
     text-align: center;
     margin-top: 60px;
-    color: #eee2dc;
+    color: #222;
 
 }
 /*.jumbotron p #bold {
@@ -104,7 +103,6 @@ div .collapse {
     margin-left: auto;
     display: block;
     border: 5px solid #eee2dc;
-    box-shadow: 10px 10px 9px #111;
 }
 .click1 {
     background-color:#337ab7!important;
@@ -120,19 +118,20 @@ div .collapse {
     transition: 0.1s;
 }
 .landing-content {
-    background-color: #222;
-    font-family: 'Playfair Display', serif;
+    background-color: #FFF;
     padding-bottom: 35px;
 }
 .landing-content .row h1 {
-    font-weight: normal;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
     text-align: center;
-    font-size: 48px;
-    color: #EEE2dc;
+    font-size: 64px;
+    color: #Df3770;
     padding-bottom: 30px;
-    border-bottom: 1px solid #DF3770;
+    border-bottom: 1px solid #3285DF;
 }
 .landing-content h2 {
+    font-family: 'Playfair Display', serif;
     font-weight: bolder;
     color: #DF3770;
     text-align: center;
@@ -147,7 +146,8 @@ div .collapse {
 
 }
 .landing-content .row p {
-    color: #eee2dc;
+    color: #222;;
+    font-family: 'Playfair Display', serif;
     font-weight: normal;
     font-size: 17px;
     text-align: justify;
@@ -340,8 +340,7 @@ p {
 
 .book {
     font-family: 'Playfair Display', serif;
-    background-color: #F4E4C1;
-    color: #DF3770;
+    background-color: #FFF;
     padding-top: 70px;
 }
 .book h2 {
@@ -373,7 +372,7 @@ p {
     font-size: 48px;
     text-align: center;
     font-family: 'Playfair Display', serif;
-    color: #DF3770;
+    color: #EDC7B7;
     font-weight: bolder;
     padding-bottom: 30px;
 }
@@ -426,7 +425,7 @@ div #review strong {
     text-shadow: 1px 1px #333;
 }
 .related {
-    background-color: #FFF;
+    background-color: #DF3770;
     width: 100%;
     margin: 0 auto;
     display: block;
@@ -547,10 +546,10 @@ div #review strong {
     display: table;
 }
 .rec .bio {
-    background-color: #3285DF;
+    background-color: #FFF;
     height:100%;
-    color: #fff;
-    border: 2px solid #fff;
+    color: #3285DF;
+    border: 1px solid #3285DF;
     vertical-align: middle;
     text-align: center!important;
     max-width: 500px;
@@ -558,7 +557,10 @@ div #review strong {
     margin-right: auto;
     margin-left: auto;
     display: block;
-    border: 5px solid #3285DF;
+}
+.rec .bio hr {
+    height: 1px;
+    background-color: #edc7b7;
 }
 .bio-info {
     background-color: #DF3770
