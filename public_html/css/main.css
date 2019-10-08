@@ -7,11 +7,12 @@ body {
     background-color: #222;
 }
 
-div .navbar-header {
-    background-color: #222;
+nav .container{
+    border-bottom: 1px solid #EEE2dc;
+
 }
 div .collapse {
-   
+
 
 }
 .navbar-fixed-top {
@@ -44,7 +45,7 @@ div .collapse {
         text-align: center;
     }
     .jumbotron p {
-        color: #123c69;
+        color: #3285DF;
         font-size: 24px!important;
         font-weight: normal!important;
         text-align: center;
@@ -56,16 +57,17 @@ div .collapse {
         margin-right: auto!important;
         margin-left: auto!important;
         display: block!important;
-        border: 5px solid #AC3B61;
+        border: 5px solid #DF3770;
     }
 }
 .jumbotron {
-/*    background-color: #F4E4C1;*/
-        background-image: linear-gradient(#F4E4C1, #222);
+    /*    background-color: #F4E4C1;*/
+    background-image: radial-gradient(#444 5%, #222);
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    border-bottom: 1px solid #DF3770;
 
 
 }
@@ -73,9 +75,8 @@ div .collapse {
     font-family: 'Playfair Display', serif;
     width: 87%;
     font-weight: bolder;
-    border-bottom: 1px solid #AC3B61;
     padding-bottom: 15px;
-        color: #222;
+    text-shadow: 10px 10px 9px #111;
 
 }
 .jumbotron h1 {
@@ -83,16 +84,19 @@ div .collapse {
     font-weight: bolder;
     font-family: 'Rock Salt', cursive;
     text-align: center;
+    color:#DF3770;
 }
 .jumbotron p {
     font-size: 30px;
     font-weight: normal;
     text-align: center;
     margin-top: 60px;
+    color: #eee2dc;
+
 }
-.jumbotron p #bold {
+/*.jumbotron p #bold {
     font-weight: bolder;
-}
+}*/
 .jumbotron img {
     height: 500px;
     width: auto;
@@ -100,6 +104,7 @@ div .collapse {
     margin-left: auto;
     display: block;
     border: 5px solid #eee2dc;
+    box-shadow: 10px 10px 9px #111;
 }
 .click1 {
     background-color:#337ab7!important;
@@ -109,7 +114,7 @@ div .collapse {
     transition: 0.1s;
 }
 .click1:hover {
-    background-color:#123c69!important;
+    background-color:#3285DF!important;
     background-image: none;
     -webkit-transition: 0.1s;
     transition: 0.1s;
@@ -125,11 +130,11 @@ div .collapse {
     font-size: 48px;
     color: #EEE2dc;
     padding-bottom: 30px;
-    border-bottom: 1px solid #AC3B61;
+    border-bottom: 1px solid #DF3770;
 }
 .landing-content h2 {
     font-weight: bolder;
-    color: #AC3B61;
+    color: #DF3770;
     text-align: center;
     height: 60px;
 }
@@ -158,7 +163,10 @@ footer{
     position: relative;
     background-color: #222;
     width: 100%;
-    border-top: 1px solid #123C69;
+}
+footer .container {
+    border-top: 1px solid #DF3770;
+
 }
 footer p {
     text-align: center;
@@ -175,7 +183,7 @@ footer p a {
     text-decoration: none;
 }
 footer p a:hover {
-    color: #AC3B61;
+    color: #DF3770;
     text-decoration: none;
     -webkit-transition: 0.1s;
     transition: 0.1s;
@@ -187,7 +195,7 @@ footer p a:hover {
     font-size: 18px;
     text-align: center;
     bottom: 0;
-    color: #123C69;
+    color: #3285DF;
 }
 footer div img {
     width: 120px;
@@ -246,7 +254,7 @@ hr {
 .form-group input:hover{
     -webkit-transition: 0.1s;
     transition: 0.1s;
-    border: 1px solid #AC3B61;
+    border: 1px solid #DF3770;
 }
 
 p .col-md-4, h1 .col-md-4, h2 .col-md-4 {
@@ -268,11 +276,11 @@ p {
     position: sticky;
     z-index: 3;
     top:81px;
-    border-bottom: 1px solid #AC3B61;
+    border-bottom: 1px solid #DF3770;
 }
 .sort h1 {
     padding-top: 15px;
-    color: #AC3B61;
+    color: #DF3770;
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     text-align: center;
@@ -285,7 +293,7 @@ p {
     text-align: center;
     -webkit-transition: 0.1s;
     transition: 0.1s;
-    color: #123C69;
+    color: #3285DF;
     font-size: 16px;
     font-weight: bold;
 }
@@ -303,12 +311,12 @@ p {
     font-size: 22px;
     font-weight: bolder;
     height: 40px;
-    color: #123C69;
+    color: #3285DF;
 }
 .items p {
     font-family: 'Playfair Display', serif;
     font-size: 16px;
-    color: #123C69;
+    color: #3285DF;
     font-weight: bold;
 }
 .items p .click2 {
@@ -325,7 +333,7 @@ p {
     transition: 0.1s;
 }
 .items img:hover {
-    border: 5px solid #AC3B61;
+    border: 5px solid #DF3770;
     -webkit-transition: 0.1s;
     transition: 0.1s;
 }
@@ -333,7 +341,7 @@ p {
 .book {
     font-family: 'Playfair Display', serif;
     background-color: #F4E4C1;
-    color: #AC3B61;
+    color: #DF3770;
     padding-top: 70px;
 }
 .book h2 {
@@ -345,7 +353,7 @@ p {
     font-family: 'Playfair Display', serif;
     text-align: left;
     font-weight: bold;
-    color: #123C69;
+    color: #3285DF;
 
 }
 .book .btns {
@@ -359,13 +367,13 @@ p {
     display: block;
     vertical-align: middle;
     margin-bottom: 20px;
-    border: 5px solid #AC3B61;
+    border: 5px solid #DF3770;
 }
 #bookpagetitle {
     font-size: 48px;
     text-align: center;
     font-family: 'Playfair Display', serif;
-    color: #AC3B61;
+    color: #DF3770;
     font-weight: bolder;
     padding-bottom: 30px;
 }
@@ -383,14 +391,14 @@ p {
     z-index: 5;
 }
 .book-content h1 {
-    color: #123C69;
+    color: #3285DF;
     font-weight: normal;
     font-size: 42px;
     background-color: #F4E4C1;
     margin-left: 15px;
     margin-right: 15px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #AC3B61;
+    border-bottom: 1px solid #DF3770;
     text-align: center;
 
 
@@ -406,7 +414,7 @@ p {
     font-family: 'Playfair Display', serif;
     text-align: center;
     font-weight: bold;
-    color: #123C69;
+    color: #3285DF;
 
 }
 #bookinfo {
@@ -423,9 +431,9 @@ div #review strong {
     margin: 0 auto;
     display: block;
     font-family: 'Playfair Display', serif;
-    color: #123C69;
-    border-top: 1px solid #123C69;
-    border-bottom: 1px solid #123C69;
+    color: #3285DF;
+    border-top: 1px solid #3285DF;
+    border-bottom: 1px solid #3285DF;
 }
 .related img {
     height: 200px;
@@ -438,7 +446,7 @@ div #review strong {
     transition:0.1s;
 }
 .related img:hover {
-    border: 5px solid #AC3B61;
+    border: 5px solid #DF3770;
     -webkit-transition:0.1s;
     transition:0.1s;
 }
@@ -499,11 +507,11 @@ div #review strong {
 .recommend h1 {
     font-size: 42px;
     text-align: center;
-    color: #123C69;
+    color: #3285DF;
     font-weight: normal;
     background-color: #F4E4C1;
     padding-bottom: 10px;
-    border-bottom: 1px solid #AC3B61;
+    border-bottom: 1px solid #DF3770;
 }
 .recommend .rec h1 {
     font-size: 24px;
@@ -515,7 +523,7 @@ div #review strong {
     vertical-align: middle;
     margin: auto auto;
     display: block;
-    border: 5px solid #AC3B61;
+    border: 5px solid #DF3770;
 }
 .recommend .content p {
     font-size: 16px;
@@ -526,7 +534,7 @@ div #review strong {
     padding-left: 15px;
     font-size: 22px;
     font-weight: bolder;
-    color: #AC3B61;
+    color: #DF3770;
 }
 .recommend strong {
     text-shadow: 1px 1px #333;
@@ -539,7 +547,7 @@ div #review strong {
     display: table;
 }
 .rec .bio {
-    background-color: #123c69;
+    background-color: #3285DF;
     height:100%;
     color: #fff;
     border: 2px solid #fff;
@@ -550,10 +558,10 @@ div #review strong {
     margin-right: auto;
     margin-left: auto;
     display: block;
-    border: 5px solid #123C69;
+    border: 5px solid #3285DF;
 }
 .bio-info {
-    background-color: #AC3B61
+    background-color: #DF3770
 }
 .rec h1 {
     text-align: left;
@@ -569,7 +577,7 @@ div #review strong {
 }
 .cart {
     padding-top: 30px;
-    background-color: #AC3B61;
+    background-color: #DF3770;
 }
 .cart-title {
     text-align: center;
@@ -582,7 +590,7 @@ div #review strong {
 
 }
 .item1, .item2, .item3, .item4 {
-    background-color: #123c69;
+    background-color: #3285DF;
     margin-top: 15px;
     border: 2px solid #eee2dc;
     color: #fff;
@@ -632,7 +640,7 @@ div #review strong {
     margin-top: 40px;
 }
 .cart-checkout {
-    background-color: #AC3B61;
+    background-color: #DF3770;
     width: 100%;
     margin: 0 auto;
     display: block;
@@ -665,7 +673,7 @@ div #review strong {
     transition:0.1s;
 }
 .cart-checkout img:hover {
-    border: 5px solid #123C69;
+    border: 5px solid #3285DF;
     -webkit-transition:0.1s;
     transition:0.1s;
 }
@@ -677,7 +685,7 @@ div #review strong {
 .check h1{
     font-family: 'Playfair Display', serif;
     font-size: 36px;
-    color: #AC3B61;
+    color: #DF3770;
     font-weight: bolder;
     text-align: center;
 
@@ -685,7 +693,7 @@ div #review strong {
 .check h2 {
     font-family: 'Playfair Display', serif;
     font-size: 18px;
-    color: #123c69;
+    color: #3285DF;
 }
 .confirm {
     margin-top: 15px;
@@ -693,7 +701,7 @@ div #review strong {
 .faq {
     padding-top: 40px;
     color:#eee2dc;
-    background-color: #AC3B61;
+    background-color: #DF3770;
     font-family: 'Playfair Display', serif;
 }
 .faq h1 {
@@ -706,7 +714,7 @@ div #review strong {
 }
 .question h2{
     font-size: 30px;
-    color: #123C69;
+    color: #3285DF;
     font-weight: bolder;
 }
 .question {
@@ -725,7 +733,7 @@ div #review strong {
     font-family: 'Playfair Display', serif;
 }
 .about {
-    background-color: #AC3B61;
+    background-color: #DF3770;
     padding-top: 30px;
 }
 .about .container {
@@ -747,11 +755,11 @@ div #review strong {
 }
 .placeholder h1 {
     font-size: 64px;
-    color: #AC3B61;
+    color: #DF3770;
     text-align: center;
 }
 .placeholder h2 {
-    color: #123C69;
+    color: #3285DF;
     font-size: 42px;
     font-weight: normal;
     padding-bottom: 5px;
@@ -769,7 +777,7 @@ div #review strong {
     display: block;
 }
 .contact {
-    background-color: #AC3B61;
+    background-color: #DF3770;
     font-family: 'Playfair Display', serif;
     padding-top: 40px;
 }
