@@ -26,6 +26,12 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $('#header').load('navbar.html');
+            });
+        </script>   
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -44,6 +50,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
+                    
+                    <div id="header"></div>
 
         <div id="id01" class="modal">
 
