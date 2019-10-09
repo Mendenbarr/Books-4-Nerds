@@ -11,7 +11,7 @@ nav .container{
 
 }
 div .collapse {
-
+    background-color: #FFF;
 
 }
 .navbar-fixed-top {
@@ -51,7 +51,7 @@ div .collapse {
         text-align: center;
         margin-top: 30px!important;
     }
-    .jumbotron img {
+    .jumbotron .jumbo-image img {
         height: 300px!important;
         width: auto!important;
         margin-right: auto!important;
@@ -275,14 +275,16 @@ p {
     position: sticky;
     z-index: 3;
     top:81px;
-    border-bottom: 1px solid #DF3770;
+    border-bottom: 1px solid #eee2dc;
 }
 .sort h1 {
     padding-top: 15px;
-    color: #DF3770;
+    color: #222;
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     text-align: center;
+    font-weight: bold;
+
 }
 .sorted {
     display: inline-block;
@@ -292,7 +294,7 @@ p {
     text-align: center;
     -webkit-transition: 0.1s;
     transition: 0.1s;
-    color: #3285DF;
+    color: #222;
     font-size: 16px;
     font-weight: bold;
 }
@@ -310,12 +312,12 @@ p {
     font-size: 22px;
     font-weight: bolder;
     height: 40px;
-    color: #3285DF;
+    color: #222;
 }
 .items p {
     font-family: 'Playfair Display', serif;
     font-size: 16px;
-    color: #3285DF;
+    color: #222;
     font-weight: bold;
 }
 .items p .click2 {
@@ -594,7 +596,7 @@ div #review strong {
     background-color: #FFF;
 }
 
-.cart-title h1{
+.cart h1{
     text-align: center;
     font-family: 'Miniver', cursive;
     color: #3285DF;
@@ -674,13 +676,13 @@ div #review strong {
     font-weight: bolder;
     font-size: 56px;    color: #eee2dc;
 
-    
+
 }
 .cart-checkout p {
     text-align: center!important;
     font-family: 'Playfair Display', serif;
     font-size: 16px!important;
-        color: #FFF;
+    color: #FFF;
 
 }
 .cart-checkout .subtitle{
@@ -726,7 +728,7 @@ div #review strong {
 .faq {
     padding-top: 40px;
     color:#eee2dc;
-    background-color: #DF3770;
+    background-color: #222;
     font-family: 'Playfair Display', serif;
 }
 .faq h1 {
@@ -739,14 +741,14 @@ div #review strong {
 }
 .question h2{
     font-size: 30px;
-    color: #3285DF;
+    color: #222;
     font-weight: bolder;
 }
 .question {
     border-bottom: 1px solid #edc7b7;
 }
 .question h3 {
-    font-size: 16px;
+    font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
 .question p {
@@ -758,7 +760,7 @@ div #review strong {
     font-family: 'Playfair Display', serif;
 }
 .about {
-    background-color: #DF3770;
+    background-color: #222;
     padding-top: 30px;
 }
 .about .container {
@@ -780,11 +782,11 @@ div #review strong {
 }
 .placeholder h1 {
     font-size: 64px;
-    color: #DF3770;
+    color: #222;
     text-align: center;
 }
 .placeholder h2 {
-    color: #3285DF;
+    color: #222;
     font-size: 42px;
     font-weight: normal;
     padding-bottom: 5px;
@@ -802,7 +804,7 @@ div #review strong {
     display: block;
 }
 .contact {
-    background-color: #DF3770;
+    background-color: #222;
     font-family: 'Playfair Display', serif;
     padding-top: 40px;
 }
@@ -814,10 +816,17 @@ div #review strong {
 }
 
 .contact p {
-    font-size: 16px;
+    font-size: 18px;
     color: #eee2dc;
     text-align: center;
-
+}
+.contact img {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 @media (max-width: 767px) {
     .sort p {
