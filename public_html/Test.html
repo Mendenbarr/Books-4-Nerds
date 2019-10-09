@@ -14,7 +14,6 @@
               type="image/png" 
               href="Images/books4nerds_secondary_black_transparent.png">
         <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Miniver&display=swap" rel="stylesheet">
         <link    href="https://fonts.googleapis.com/css?family=Alegreya|Crimson+Text:400i|EB+Garamond|Laila:300|Playfair+Display&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps|Rochester|Rock+Salt|Satisfy|Sunshiney&display=swap" rel="stylesheet">
 
@@ -29,32 +28,35 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>
-            $(function(){
+            $(function () {
                 $('#header').load('navbar.html');
             });
-        </script>   
+        </script>
+        <script>
+            $(function () {
+                $('#login').load('login.html');
+            });
+        </script> 
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-         <div id="header"></div>
+
+       
+        <div id="header"></div>-->
+        
+        <div id="login"></div>
 
         <!-- Main jumbotron for a primary marketing message or call to action -->
         <div class="jumbotron">
             <div class="container">
                 <div class="jumbo-content col-lg-8">
-                    <h2>Books 4 Nerds Presents...</h2>
                     <h1>Deal of The Day</h1>
-                    <p>Creating Killer Interactive Sites</p>
+                    <p><strong>Creating Killer Interactive Sites</strong></p>
                     <p>15% Off + Free Shipping</p>
-                    <div class="mini-img col-md-12">
-                        <img src="Images/books4nerds_secondary_ltbeige_transparent.png" alt=""/>
-                    </div>
-                    <p class="col-md-12"><a class="btn btn-primary btn-lg" href="book.html" role="button">View Book &raquo;</a></p>
-                    
+                    <br>
+                    <p class="col-md-6"><a class="btn btn-primary btn-lg" href="book.html" role="button">View Book &raquo;</a></p>
+                    <p class="col-md-6"><a class="btn btn-primary btn-sm" href="search.html" role="button">For Search Results &raquo;</a></p>
                 </div>
                 <div class="jumbo-image col-lg-4">
                     <img src="Images/bookimg/KillerInteractiveSites.gif" alt=""/>
@@ -89,7 +91,7 @@
         </div>
 
         <footer>
-            <div class="container footer-content">
+            <div class='footer-content'>
                 <p class='col-sm-6 link'>
                     <a href="contact.html">
                         Contact/About Us
@@ -101,9 +103,7 @@
                     </a>
                 </p>
                 <div class="col-md-12 img">
-                    <a href="index.html">
-                        <img src="Images/B4N_MAIN_3285DF.png" alt=""/>
-                    </a>
+                    <a href="index.html"><img src="Images/books4nerds_main_blue_transparent.png" alt=""/></a>
                 </div>
                 <p class='col-sm-12 copyright'>
                     &copy; Books 4 Nerds Co. 2019
