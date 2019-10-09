@@ -473,7 +473,7 @@ div #review strong {
     position: -webkit-sticky;
     position: sticky;
     top:79px;
-    background-color: #FFF1;
+    background-color: #FFF;
     z-index: 5;
 
 }
@@ -591,53 +591,60 @@ div #review strong {
 }
 .cart {
     padding-top: 30px;
-    background-color: #DF3770;
+    background-color: #FFF;
 }
-.cart-title {
+
+.cart-title h1{
     text-align: center;
-    font-family: 'Playfair Display', serif;
-    color: #eee2dc;
-    font-size: 56px;
+    font-family: 'Miniver', cursive;
+    color: #3285DF;
+    font-size: 72px;
     padding-top: 15px;
     font-weight: bolder;
 
 
 }
 .item1, .item2, .item3, .item4 {
-    background-color: #3285DF;
-    margin-top: 15px;
-    border: 2px solid #eee2dc;
-    color: #fff;
+
+    color: #222;
     width: 100%;
+    border-bottom: 1px solid #222;
 }
 .item4 {
     margin-bottom: 20px;
 }
 .itempic img{
     height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    display: block;
 
 }
 .iteminfo {
     margin-top: 15px;
     display: inline-block;
+    font-size: 16px;
     font-family: 'Playfair Display', serif;
-
-}
-.remove1, .remove2, .remove3, .remove4 {
-    font-family: 'Playfair Display', serif;
-    margin: auto;
-    vertical-align: middle;
+    vertical-align: bottom!important;
     text-align: center;
-    margin-top: 60px;
-    -webkit-transition: 0.1s;
-    transition: 0.1s;
-}
-.remove1:active, .remove2:active, .remove3:active, .remove4:active {
-    visibility: hidden;
-    -webkit-transition: 0.1s;
-    transition: 0.1s;
 
 }
+.labels {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+
+}
+.labels p {
+    padding-bottom: 10px;
+    background-color: #FFF;
+
+    border-bottom: 1px solid #222;
+
+}
+
 @media (max-width:767px) {
     .itempic img{
         height: 300px;
@@ -654,24 +661,27 @@ div #review strong {
     margin-top: 40px;
 }
 .cart-checkout {
-    background-color: #DF3770;
+    background-color: #222;
     width: 100%;
     margin: 0 auto;
     display: block;
-    font-family: 'Playfair Display', serif;
-    color: #fff;
 }
 
 
 .cart-checkout h1 {
+    font-family: 'Miniver', cursive;
     text-align: center;
     font-weight: bolder;
-    font-size: 32px;
+    font-size: 56px;    color: #eee2dc;
+
+    
 }
 .cart-checkout p {
     text-align: center!important;
-
+    font-family: 'Playfair Display', serif;
     font-size: 16px!important;
+        color: #FFF;
+
 }
 .cart-checkout .subtitle{
     padding-top: 10px!important;
@@ -695,11 +705,12 @@ div #review strong {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    padding-right: 15px;
 }
 .check h1{
     font-family: 'Playfair Display', serif;
     font-size: 36px;
-    color: #DF3770;
+    color: #3285DF;
     font-weight: bolder;
     text-align: center;
 
@@ -707,7 +718,7 @@ div #review strong {
 .check h2 {
     font-family: 'Playfair Display', serif;
     font-size: 18px;
-    color: #3285DF;
+    color: #222;
 }
 .confirm {
     margin-top: 15px;

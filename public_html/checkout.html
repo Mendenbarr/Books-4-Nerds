@@ -14,6 +14,7 @@
           type="image/png" 
           href="Images/books4nerds_secondary_black_transparent.png">
     <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Miniver&display=swap" rel="stylesheet">
     <link    href="https://fonts.googleapis.com/css?family=Alegreya|Crimson+Text:400i|EB+Garamond|Laila:300|Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps|Rochester|Rock+Salt|Satisfy|Sunshiney&display=swap" rel="stylesheet">
 
@@ -37,8 +38,9 @@
         <div class="container">
             <div class="navbar-header">
 
-                <a href="index.html"><img class="nav-img" src="Images/books4nerds_main_transparent.png" alt="Books 4 Nerds"/></a>
-
+                <a href="index.html">
+                    <img class="nav-img" src="Images/B4N_MAIN_DF3770.png" alt=""/>
+                </a>  
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -56,17 +58,23 @@
                     <div class="form-group">
                         <input type="text" placeholder="Search..." class="form-control search">
                     </div>
-                    <div class="form-group">
-                        <input type="text" placeholder="Email" class="form-control">
-                    </div>
-
-                    <div class="form-group">
-                        <input type="password" placeholder="Password" class="form-control">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Sign in</button>
+                    <button type="submit" class="btn btn-primary">Search</button>
+                    <button type="submit" class="btn btn-primary btn-primary-signin">Sign in</button>
                     <div class="form-group shop">
                         <a href="cart.html"><img src="Images/shopcart.png" alt="Shopping Cart"/></a>
                     </div>
+                    <p class='mobile-form-group' >
+                        <a href="faq.html">
+                            FAQ
+                        </a>
+                    </p>
+
+                    <p class='mobile-form-group'>
+                        <a href="contact.html">
+                            Contact/About Us
+                        </a>
+                    </p>   
+
                 </form>
             </div>
 
@@ -74,68 +82,71 @@
 
     </nav>
 
-
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div id="checkout">
         <div class="cart-checkout">
             <div class="container">
                 <h1 class="row2 col-lg-12">
-                    Shopping Cart
+                    Your Cart
                 </h1>
                 <div class="col-lg-3">
-                        <img src="Images/bookimg/SQLUnleashed.JPG" alt=""/>
+                    <img src="Images/bookimg/SQLUnleashed.JPG" alt=""/>
                     <p class="col-sm-12 subtitle">SQL Unleashed Store</p>
                     <p class="col-sm-12">Quantity: 1</p>
                     <p class="col-sm-12">Price: $__.__</p>
                 </div>
                 <div class="col-lg-3">
-                        <img src="Images/bookimg/KillerInteractiveSites.gif" alt=""/>
+                    <img src="Images/bookimg/KillerInteractiveSites.gif" alt=""/>
                     <p class="col-sm-12 subtitle">Creating Killer Interactive Websites</p>
                     <p class="col-sm-12">Quantity: 1</p>
                     <p class="col-sm-12">Price: $__.__</p>
                 </div>
                 <div class="col-lg-3">
-                        <img src="Images/bookimg/InformationArchitecture.gif" alt=""/>
+                    <img src="Images/bookimg/InformationArchitecture.gif" alt=""/>
                     <p class="col-sm-12 subtitle">Information Architecture</p>
                     <p class="col-sm-12">Quantity: 1</p>
                     <p class="col-sm-12">Price: $__.__</p>
                 </div>
                 <div class="col-lg-3">
-                        <img src="Images/bookimg/CreatingVirtualStore.gif" alt=""/>
+                    <img src="Images/bookimg/CreatingVirtualStore.gif" alt=""/>
                     <p class="col-sm-12 subtitle">Creating The Virtual Store</p>
                     <p class="col-sm-12">Quantity: 1</p>
                     <p class="col-sm-12">Price: $__.__</p>
                 </div>
             </div>
         </div>
-    </div>
         <div class="container">
             <div class="col-lg-6 check">
                 <h1 class="col-lg-12" >Shipping Address</h1>
-                <h2 class="col-sm-12">Street:_____</h2>
-                <h2 class="col-sm-12">City:_____</h2>
-                <h2 class="col-sm-12">State:_____</h2>
-                <h2 class="col-sm-12">ZIP Code:_____</h2>
-                <h2 class="col-sm-12">Phone Number:_____</h2>
-                <h2 class="col-sm-12">Apt/Suite:_____</h2>
-
-
+                <h2 class="col-sm-6">Street Address</h2>
+                <input type="text" placeholder="Street Address" class="form-control col-sm-5">
+                <h2 class="col-sm-6">City</h2>
+                <input type="text" placeholder="City" class="form-control col-sm-5">
+                <h2 class="col-sm-6">State</h2>
+                <input type="text" placeholder="State" class="form-control col-sm-5">
+                <h2 class="col-sm-6">ZIP Code</h2>
+                <input type="text" placeholder="ZIP Code" class="form-control col-sm-5">
+                <h2 class="col-sm-6">Phone Number</h2>
+                <input type="text" placeholder="Phone Number" class="form-control col-sm-5">
+                <h2 class="col-sm-6">Apt/Suite</h2>
+                <input type="text" placeholder="Apt/Suite" class="form-control col-sm-5">
             </div>
             <div class="col-lg-6 check">
                 <h1 class="col-lg-12" >Payment Information</h1>
-                <h2 class="col-sm-12">Card Number:____-____-____-____</h2>
-                <h2 class="col-sm-12">Expiration Date:__/____</h2>
-                <h2 class="col-sm-12">Security Code:___</h2>
-                <h2 class="col-sm-12">Name on Card:__________</h2>                
-            </div>
-                <p class="cart-title col-lg-12"><a class="btn btn-primary btn-lg" href="index.html" role="button">Confirm Purchase</a></p>            
-        </div>
-        
-        
-        
+                <h2 class="col-sm-6">Card Number</h2>
+                <input type="text" placeholder="XXXX-XXXX-XXXX-XXXX" class="form-control col-sm-5">
+                <h2 class="col-sm-6">Expiration Date</h2>
+                <input type="text" placeholder="MM/YYYY" class="form-control col-sm-5">
+                <h2 class="col-sm-6">Security Code</h2>
+                <input type="text" placeholder="###" class="form-control col-sm-5">
+                <h2 class="col-sm-6">Name on Card</h2> 
+                <input type="text" placeholder="Name" class="form-control col-sm-5">
 
-    <footer>
-            <div class='footer-content'>
+            </div>
+            <p class="cart-title col-lg-12"><a class="btn btn-primary btn-lg" href="index.html" role="button">Confirm Purchase</a></p>            
+        </div>
+        <footer>
+            <div class="container footer-content">
                 <p class='col-sm-6 link'>
                     <a href="contact.html">
                         Contact/About Us
@@ -147,13 +158,16 @@
                     </a>
                 </p>
                 <div class="col-md-12 img">
-                    <img src="Images/books4nerds_main_beige_transparent.png" alt=""/>
+                    <a href="index.html">
+                        <img src="Images/B4N_MAIN_3285DF.png" alt=""/>
+                    </a>
                 </div>
                 <p class='col-sm-12 copyright'>
                     &copy; Books 4 Nerds Co. 2019
                 </p>
             </div>
         </footer>
+    </div>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
     <script src="js/vendor/bootstrap.min.js"></script>

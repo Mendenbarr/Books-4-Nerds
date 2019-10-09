@@ -14,6 +14,7 @@
               type="image/png" 
               href="Images/books4nerds_secondary_black_transparent.png">
         <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Miniver&display=swap" rel="stylesheet">
         <link    href="https://fonts.googleapis.com/css?family=Alegreya|Crimson+Text:400i|EB+Garamond|Laila:300|Playfair+Display&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps|Rochester|Rock+Salt|Satisfy|Sunshiney&display=swap" rel="stylesheet">
 
@@ -37,8 +38,9 @@
             <div class="container">
                 <div class="navbar-header">
 
-                    <a href="index.html"><img class="nav-img" src="Images/books4nerds_main_transparent.png" alt="Books 4 Nerds"/></a>
-
+                    <a href="index.html">
+                        <img class="nav-img" src="Images/B4N_MAIN_DF3770.png" alt=""/>
+                    </a>  
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
@@ -51,7 +53,7 @@
 
 
 
-               <div id="navbar" class="navbar-collapse collapse">
+                <div id="navbar" class="navbar-collapse collapse">
                     <form class="navbar-form" role="form">
                         <div class="form-group">
                             <input type="text" placeholder="Search..." class="form-control search">
@@ -72,7 +74,7 @@
                                 Contact/About Us
                             </a>
                         </p>   
-                        
+
                     </form>
                 </div>
 
@@ -80,89 +82,93 @@
 
         </nav>
 
+
         <!-- Main jumbotron for a primary marketing message or call to action -->
         <div class="cart">
             <div class="container">
-                <h1 class="cart-title">Shopping Cart Items</h1>
+                <h1 class="cart-title">Your Cart</h1>
                 <p class="cart-title"><a class="btn btn-primary btn-lg" href="checkout.html" role="button">Buy Now</a></p>            
+                <div class="labels">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-10">
+                        <p class="col-md-2">Title:</p>
+                        <p class="col-md-2">Condition:</p>
+                        <p class="col-md-2">Author:</p>
+                        <p class="col-md-2">Quantity:</p>
+                        <p class="col-md-2">Price:</p>
+                        <div class="col-md-2"></div>
+                    </div>
+                </div>
                 <div class=" col-md-12 item1">
-                    <div class="itempic col-md-3">
+                    <div class="itempic col-md-2">
                         <img src="Images/bookimg/SQLUnleashed.JPG" alt=""/>
                     </div>
-                    <div class="iteminfo col-md-4">
-                        <div class="col-md-12">
-                            <p class="col-md-6">SQL Unleashed</p>
-                            <p class="col-md-6">Condition: New</p>
-                            <p class="col-md-6">Author:_____</p>
-                            <p class="col-md-6">Quantity: 1&#9660;</p>
-                            <p class="col-md-6">
-                                Price: $_____
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <p class="remove1"><a class="btn btn-danger btn-lg" role="button">Remove</a></p>            
+                    <div class="iteminfo col-md-10">
+                        <p class="col-md-2">SQL Unleashed</p>
+                        <p class="col-md-2">New</p>
+                        <p class="col-md-2">_____</p>
+                        <p class="col-md-2">1&#9660;</p>
+                        <p class="col-md-2">
+                            $_____
+                        </p>
+                        <p class="col-md-2"><a class="btn btn-danger btn-lg" role="button">Remove</a></p>            
+
 
                     </div>
+                </div>
+                <div class="col-md-5">
 
                 </div>
                 <div class=" col-md-12 item2">
-                    <div class="itempic col-md-3">
+                    <div class="itempic col-md-2">
                         <img src="Images/bookimg/KillerInteractiveSites.gif" alt=""/>
                     </div>
-                    <div class="iteminfo col-md-4">
-                        <div class="col-md-12">
-                            <p class="col-md-6"> Creating Killer Interactive Sites</p>
-                            <p class="col-md-6">Condition: New</p>
-                            <p class="col-md-6">Author:_____</p>
-                            <p class="col-md-6">Quantity: 1&#9660;</p>
-                            <p class="col-md-6">
-                                Price: $_____
-                            </p>
-                        </div>
+                    <div class="iteminfo col-md-10">
+                        <p class="col-md-2"> Creating Killer Interactive Sites</p>
+                        <p class="col-md-2">New</p>
+                        <p class="col-md-2">_____</p>
+                        <p class="col-md-2">1&#9660;</p>
+                        <p class="col-md-2">
+                            $_____
+                        </p>
+                        <p class="col-md-2"><a class="btn btn-danger btn-lg" role="button">Remove</a></p>            
+
                     </div>
                     <div class="col-md-5">
-                        <p class="remove2"><a class="btn btn-danger btn-lg" role="button">Remove</a></p>            
 
                     </div>
                 </div>
                 <div class=" col-md-12 item3">
-                    <div class="itempic col-md-3">
+                    <div class="itempic col-md-2">
                         <img src="Images/bookimg/InformationArchitecture.gif" alt=""/>
                     </div>
-                    <div class="iteminfo col-md-4">
-                        <p class="col-md-12">Information Architecture</p>
-                        <p class="col-md-12">Condition: New</p>
-                        <p class="col-md-12">Author:_____</p>
-                        <p class="col-md-12">Quantity: 1&#9660;</p>
-                        <p class="col-md-12">
-                            Price: $_____
+                    <div class="iteminfo col-md-10">
+                        <p class="col-md-2">Information Architecture</p>
+                        <p class="col-md-2">Used</p>
+                        <p class="col-md-2">_____</p>
+                        <p class="col-md-2">1&#9660;</p>
+                        <p class="col-md-2">
+                            $_____
                         </p>
-                    </div>
-                    <div class="col-md-5">
-                        <p class="remove3"><a class="btn btn-danger btn-lg" role="button">Remove</a></p>            
+                        <p class="col-md-2"><a class="btn btn-danger btn-lg" role="button">Remove</a></p>            
 
                     </div>
-
                 </div>
                 <div class=" col-md-12 item4">
-                    <div class="itempic col-md-3">
+                    <div class="itempic col-md-2">
                         <img src="Images/bookimg/CreatingVirtualStore.gif" alt=""/>
                     </div>
-                    <div class="iteminfo col-md-4">
-                        <p class="col-md-12">Creating the Virtual Store</p>
-                        <p class="col-md-12">Condition: New</p>
-                        <p class="col-md-12">Author:_____</p>
-                        <p class="col-md-12">Quantity: 1&#9660;</p>
-                        <p class="col-md-12">
-                            Price: $_____
+                    <div class="iteminfo col-md-10">
+                        <p class="col-md-2">Creating the Virtual Store</p>
+                        <p class="col-md-2">New</p>
+                        <p class="col-md-2">_____</p>
+                        <p class="col-md-2">1&#9660;</p>
+                        <p class="col-md-2">
+                            $_____
                         </p>
-                    </div>
-                    <div class="col-md-5">
-                        <p class="remove4"><a class="btn btn-danger btn-lg" role="button">Remove</a></p>            
+                        <p class="col-md-2"><a class="btn btn-danger btn-lg" role="button">Remove</a></p>            
 
                     </div>
-
                 </div>
             </div>
 
@@ -199,6 +205,7 @@
                 </div>
             </div>
         </div>
+
         <footer>
             <div class='footer-content'>
                 <p class='col-sm-6 link'>
