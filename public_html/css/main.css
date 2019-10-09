@@ -431,8 +431,6 @@ div #review strong {
     width: 100%;
     margin: 0 auto;
     display: block;
-    border-top: 1px solid #3285DF;
-    border-bottom: 1px solid #3285DF;
 }
 .related img {
     height: 200px;
@@ -642,20 +640,23 @@ div #review strong {
 .labels p {
     padding-bottom: 10px;
     background-color: #FFF;
-
     border-bottom: 1px solid #222;
 
 }
-
+@media (max-width:767px) {
+    .labels {
+        display:none;
+    }
+}
 @media (max-width:767px) {
     .itempic img{
-        height: 300px;
+        height: 150px;
         margin: auto;
         width: auto;
         display: block;
     }
     .item1, .item2, .item3, .item4 {
-        font-size: 20px;
+        font-size: 30px;
         text-align: center;
     }
 }
