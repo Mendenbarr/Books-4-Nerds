@@ -662,6 +662,10 @@ div #review strong {
 }
 #checkout{
     margin-top: 40px;
+
+}
+#checkout container {
+    padding-bottom: 20px;
 }
 .cart-checkout {
     background-color: #222;
