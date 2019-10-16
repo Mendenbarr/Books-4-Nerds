@@ -834,22 +834,25 @@ div #review strong {
     margin-right: auto;
     margin-left: auto;
     display: block;
+    border: 1px solid #222;
+
 }
-.contact {
-    background-color: #222;
+.contact .container {
+    background-color: #FFF;
     font-family: 'Playfair Display', serif;
     padding-top: 40px;
+    border-bottom: 1px solid #222;
 }
 .contact h1 {
     font-size: 54px;
-    color: #eee2dc;
+    color: #222;
     text-align: center;
 
 }
 
 .contact p {
     font-size: 18px;
-    color: #eee2dc;
+    color: #222;
     text-align: center;
 }
 .contact img {
