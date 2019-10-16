@@ -362,6 +362,9 @@ p {
     color: #222;
 
 }
+.book i {
+    color: #3285DF;
+}
 .book .btns {
     text-align: center;
     margin-top: 20px;
@@ -373,7 +376,7 @@ p {
     display: block;
     vertical-align: middle;
     margin-bottom: 20px;
-    border: 5px solid #3285DF;
+    border: 5px groove #222;
 }
 
 
@@ -430,6 +433,9 @@ div #review strong {
     width: 100%;
     margin: 0 auto;
     display: block;
+}
+.related i {
+    color: #FFF;
 }
 .related img {
     height: 200px;
@@ -515,7 +521,7 @@ div #review strong {
     vertical-align: middle;
     margin: auto auto;
     display: block;
-    border: 5px solid #eee2dc;
+    border: 5px groove #222;
 }
 .recommend .content p {
     font-size: 16px;
@@ -579,12 +585,16 @@ div #review strong {
     font-weight: normal;
 
 }
-.rec .bio strong {
+.rec .bio i {
     -webkit-transition: 0.1s;
     transition: 0.1s;
+    color: #000;
+    margin-right: 20px;
+    margin-left: 20px;
 }
-.rec .bio strong:hover {
-    text-shadow: 3px 3px 3px #222;
+.rec .bio i:hover {
+    color: #FFF;
+    -webkit-text-stroke: 2px #222;
     -webkit-transition: 0.1s;
     transition: 0.1s;
 }
