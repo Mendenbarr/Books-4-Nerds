@@ -23,6 +23,18 @@ div .collapse {
     float:left;
     background-image: none;
 }
+nav i {
+    font-size: 50px!important;
+    margin-left:20px;
+    color: #222;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+}
+nav i:hover {
+    color: #DF3770;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+}
 .nav-img, footer div img {
     -webkit-transition: 0.05s;
     transition: 0.05s;
@@ -759,8 +771,8 @@ div #review strong {
 }
 .faq {
     padding-top: 40px;
-    color:#eee2dc;
-    background-color: #222;
+    color:#222;
+    background-color: #FFF;
     font-family: 'Playfair Display', serif;
 }
 .faq h1 {
@@ -769,7 +781,7 @@ div #review strong {
 }
 .faq h2 {
     font-size: 18px;
-    color: #eee2dc;
+    color: #222;
 }
 .question h2{
     font-size: 30px;
