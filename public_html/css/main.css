@@ -1,5 +1,5 @@
 html {
-    background-color: #222;
+    background-color: #FFF;
     width:100%;
 }
 
@@ -22,6 +22,18 @@ div .collapse {
 
     float:left;
     background-image: none;
+}
+nav i {
+    font-size: 50px!important;
+    margin-left:20px;
+    color: #222;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+}
+nav i:hover {
+    color: #DF3770;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
 }
 .nav-img, footer div img {
     -webkit-transition: 0.05s;
@@ -61,8 +73,7 @@ div .collapse {
     }
 }
 .jumbotron {
-    background-color: #222;
-    background-image: radial-gradient(#111, #222 75%);
+    background-color: #FFF;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -78,15 +89,15 @@ div .collapse {
     font-weight: bolder;
     font-family: 'Miniver', cursive;    
     text-align: center;
-    color:#EEE2DC;
+    color:#222;
 }
 .jumbotron h1 {
     font-size: 96px;
-    text-shadow: 12px 12px 8px #111;
+    text-shadow: 8px 8px 8px #BBB;
     font-weight: bolder;
     font-family: 'Miniver', cursive;    
     text-align: center;
-    color:#3285DF;
+    color:#DF3770;
 }
 .jumbotron p {
     font-family: 'Playfair Display', serif;
@@ -94,7 +105,7 @@ div .collapse {
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
-    color: #FFF;
+    color: #DF3770;
 
 }
 .jumbotron .mini-img img {
@@ -112,7 +123,7 @@ div .collapse {
     margin-right: auto;
     margin-left: auto;
     display: block;
-    border: 5px solid #3285DF;
+    border: 5px groove #DF3770;
     box-shadow: 12px 12px 8px #191919;
 
 }
@@ -160,7 +171,7 @@ footer{
     margin-bottom:0;
     padding-bottom: 0;
     position: relative;
-    background-color: #222;
+    background-color: #FFF;
     width: 100%;
 }
 footer .container {
@@ -176,7 +187,7 @@ footer p {
 
 }
 footer p a {
-    color: #eee2dc;
+    color: #3285DF;
     -webkit-transition: 0.1s;
     transition: 0.1s;
     text-decoration: none;
@@ -314,16 +325,18 @@ p {
     height: 40px;
     color: #222;
 }
+.items h2 i {
+    color: #222;
+}
 .items p {
     font-family: 'Playfair Display', serif;
     font-size: 16px;
     color: #222;
     font-weight: bold;
 }
-.items p .click2 {
+.items .searchbtn {
     margin-left: auto;
     margin-right: auto;
-    display:block;
 }
 .items img {
     margin-left: auto;
@@ -340,7 +353,7 @@ p {
 }
 
 .book {
-    background-color: #222;
+    background-color: #FFF;
     padding-top: 70px;
 }
 .book p {
@@ -351,7 +364,7 @@ p {
     font-size: 48px;
     text-align: center;
     font-family: 'Playfair Display', serif;
-    color: #FFF;
+    color: #222;
     font-weight: bolder;
     padding-bottom: 30px;
 }
@@ -360,8 +373,14 @@ p {
     font-family: 'Playfair Display', serif;
     text-align: left;
     font-weight: bold;
-    color: #FFF;
+    color: #222;
 
+}
+.book i {
+    color: #3285DF;
+}
+.book .btn i {
+    color:#FFF;
 }
 .book .btns {
     text-align: center;
@@ -374,7 +393,7 @@ p {
     display: block;
     vertical-align: middle;
     margin-bottom: 20px;
-    border: 5px solid #3285DF;
+    border: 5px groove #222;
 }
 
 
@@ -398,7 +417,7 @@ p {
     margin-left: 15px;
     margin-right: 15px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #DF3770;
+    border-bottom: 1px solid #222;
     text-align: center;
 
 
@@ -432,6 +451,9 @@ div #review strong {
     margin: 0 auto;
     display: block;
 }
+.related i {
+    color: #FFF;
+}
 .related img {
     height: 200px;
     width:auto;
@@ -449,7 +471,7 @@ div #review strong {
 }
 .related h1 {
     color: #eee2dc;
-    font-family: 'Miniver', cursive;
+    font-family: 'Playfair Display', cursive;
     text-align: center;
     font-weight: normal;
     font-size: 60px;
@@ -504,7 +526,7 @@ div #review strong {
     font-weight: bold;
     background-color: #FFF;
     padding-bottom: 10px;
-    border-bottom: 1px solid #eee2dc;
+    border-bottom: 1px solid #222;
 }
 .recommend .rec h1 {
     font-size: 24px;
@@ -516,7 +538,7 @@ div #review strong {
     vertical-align: middle;
     margin: auto auto;
     display: block;
-    border: 5px solid #eee2dc;
+    border: 5px groove #222;
 }
 .recommend .content p {
     font-size: 16px;
@@ -580,12 +602,16 @@ div #review strong {
     font-weight: normal;
 
 }
-.rec .bio strong {
+.rec .bio i {
     -webkit-transition: 0.1s;
     transition: 0.1s;
+    color: #000;
+    margin-right: 20px;
+    margin-left: 20px;
 }
-.rec .bio strong:hover {
-    text-shadow: 3px 3px 3px #222;
+.rec .bio i:hover {
+    color: #FFF;
+    -webkit-text-stroke: 2px #222;
     -webkit-transition: 0.1s;
     transition: 0.1s;
 }
@@ -596,11 +622,12 @@ div #review strong {
 
 .cart h1{
     text-align: center;
-    font-family: 'Miniver', cursive;
+    font-family: 'Playfair Display', cursive;
     color: #3285DF;
-    font-size: 72px;
+    font-size: 52px;
     padding-top: 15px;
     font-weight: bolder;
+    margin-bottom: 60px;
 
 
 }
@@ -608,7 +635,10 @@ div #review strong {
 
     color: #222;
     width: 100%;
-    border-bottom: 1px solid #222;
+    border: 1px solid #222;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
 .item4 {
     margin-bottom: 20px;
@@ -629,6 +659,18 @@ div #review strong {
     vertical-align: bottom!important;
     text-align: center;
 
+}
+.iteminfo i{
+    font-size: 40px;
+    margin:auto;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+    vertical-align: middle;
+}
+.iteminfo i:hover {
+    color: red;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
 }
 .labels {
     text-align: center;
@@ -732,8 +774,8 @@ div #review strong {
 }
 .faq {
     padding-top: 40px;
-    color:#eee2dc;
-    background-color: #222;
+    color:#222;
+    background-color: #FFF;
     font-family: 'Playfair Display', serif;
 }
 .faq h1 {
@@ -742,7 +784,7 @@ div #review strong {
 }
 .faq h2 {
     font-size: 18px;
-    color: #eee2dc;
+    color: #222;
 }
 .question {
     border: 1px solid #edc7b7;
@@ -831,22 +873,25 @@ div #review strong {
     margin-right: auto;
     margin-left: auto;
     display: block;
+    border: 1px solid #222;
+
 }
-.contact {
-    background-color: #222;
+.contact .container {
+    background-color: #FFF;
     font-family: 'Playfair Display', serif;
     padding-top: 40px;
+    border-bottom: 1px solid #222;
 }
 .contact h1 {
     font-size: 54px;
-    color: #eee2dc;
+    color: #222;
     text-align: center;
 
 }
 
 .contact p {
     font-size: 18px;
-    color: #eee2dc;
+    color: #222;
     text-align: center;
 }
 .contact img {

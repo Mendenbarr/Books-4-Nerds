@@ -20,6 +20,8 @@
 
         <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+              rel="stylesheet">
         <style>
             body {
                 padding-top: 60px;
@@ -29,10 +31,11 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>
-            $(function(){
+            $(function () {
                 $('#header').load('navbar.html');
+                $('#footer').load('footer.html');
             });
         </script>   
     </head>
@@ -40,13 +43,13 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-         <div id="header"></div>
+        <div id="header"></div>
 
 
         <!-- Main jumbotron for a primary marketing message or call to action -->
         <div class="cart">
             <div class="container">
-                <h1 class="cart-title">Your Cart</h1>
+                <h1 class="cart-title">Shopping Cart</h1>
                 <p style="text-align: center;" class="cart-title"><a class="btn btn-primary btn-lg" href="checkout.html" role="button">Checkout</a></p>            
                 <div class="labels">
                     <div class="col-lg-2"></div>
@@ -71,7 +74,7 @@
                         <p class="col-md-2">
                             $_____
                         </p>
-                        <p class="col-md-2"><a class="btn btn-danger btn-lg" role="button">Remove</a></p>            
+                        <p class="col-md-2"><i class="material-icons">remove_shopping_cart</i></p>            
 
 
                     </div>
@@ -91,7 +94,7 @@
                         <p class="col-md-2">
                             $_____
                         </p>
-                        <p class="col-md-2"><a class="btn btn-danger btn-lg" role="button">Remove</a></p>            
+                        <p class="col-md-2"><i class="material-icons">remove_shopping_cart</i></p>            
 
                     </div>
                     <div class="col-md-5">
@@ -110,7 +113,7 @@
                         <p class="col-md-2">
                             $_____
                         </p>
-                        <p class="col-md-2"><a class="btn btn-danger btn-lg" role="button">Remove</a></p>            
+                        <p class="col-md-2"><i class="material-icons">remove_shopping_cart</i></p>            
 
                     </div>
                 </div>
@@ -126,7 +129,7 @@
                         <p class="col-md-2">
                             $_____
                         </p>
-                        <p class="col-md-2"><a class="btn btn-danger btn-lg" role="button">Remove</a></p>            
+                        <p class="col-md-2"><i class="material-icons">remove_shopping_cart</i></p>            
 
                     </div>
                 </div>
@@ -166,28 +169,7 @@
             </div>
         </div>
 
-        <footer>
-            <div class="container footer-content">
-                <p class='col-sm-6 link'>
-                    <a href="contact.html">
-                        Contact/About Us
-                    </a>
-                </p>
-                <p class='col-sm-6 link'>
-                    <a href="faq.html">
-                        FAQ
-                    </a>
-                </p>
-                <div class="col-md-12 img">
-                    <a href="index.html">
-                        <img src="Images/B4N_MAIN_3285DF.png" alt=""/>
-                    </a>
-                </div>
-                <p class='col-sm-12 copyright'>
-                    &copy; Books 4 Nerds Co. 2019
-                </p>
-            </div>
-        </footer>
+        <div id="footer"></div>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>');</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
