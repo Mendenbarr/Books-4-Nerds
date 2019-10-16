@@ -29,10 +29,13 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>
-            $(function(){
+            $(function () {
                 $('#header').load('navbar.html');
+            });
+            $(function () {
+                $('#footer').load('footer.html');
             });
         </script>   
     </head>
@@ -40,7 +43,7 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-         <div id="header"></div>
+        <div id="header"></div>
 
 
         <!-- Main jumbotron for a primary marketing message or call to action -->
@@ -137,32 +140,11 @@
                 </div>
 
             </div>
-                <p style="text-align: center; padding-top: 40px;" class="cart-title"><a class="btn btn-primary btn-lg" href="#" role="button">View More &raquo;</a></p>            
+            <p style="text-align: center; padding-top: 40px;" class="cart-title"><a class="btn btn-primary btn-lg" href="#" role="button">View More &raquo;</a></p>            
 
         </div>
 
-        <footer>
-            <div class="container footer-content">
-                <p class='col-sm-6 link'>
-                    <a href="contact.html">
-                        Contact/About Us
-                    </a>
-                </p>
-                <p class='col-sm-6 link'>
-                    <a href="faq.html">
-                        FAQ
-                    </a>
-                </p>
-                <div class="col-md-12 img">
-                    <a href="index.html">
-                        <img src="Images/B4N_MAIN_3285DF.png" alt=""/>
-                    </a>
-                </div>
-                <p class='col-sm-12 copyright'>
-                    &copy; Books 4 Nerds Co. 2019
-                </p>
-            </div>
-        </footer>
+        <div id="footer"></div>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>');</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
