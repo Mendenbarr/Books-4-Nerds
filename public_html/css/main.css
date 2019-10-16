@@ -61,8 +61,7 @@ div .collapse {
     }
 }
 .jumbotron {
-    background-color: #222;
-    background-image: radial-gradient(#111, #222 75%);
+    background-color: #FFF;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -78,15 +77,15 @@ div .collapse {
     font-weight: bolder;
     font-family: 'Miniver', cursive;    
     text-align: center;
-    color:#EEE2DC;
+    color:#222;
 }
 .jumbotron h1 {
     font-size: 96px;
-    text-shadow: 12px 12px 8px #111;
+    text-shadow: 8px 8px 8px #BBB;
     font-weight: bolder;
     font-family: 'Miniver', cursive;    
     text-align: center;
-    color:#3285DF;
+    color:#DF3770;
 }
 .jumbotron p {
     font-family: 'Playfair Display', serif;
@@ -94,7 +93,7 @@ div .collapse {
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
-    color: #FFF;
+    color: #DF3770;
 
 }
 .jumbotron .mini-img img {
@@ -112,7 +111,7 @@ div .collapse {
     margin-right: auto;
     margin-left: auto;
     display: block;
-    border: 5px solid #3285DF;
+    border: 5px groove #DF3770;
     box-shadow: 12px 12px 8px #191919;
 
 }
@@ -160,7 +159,7 @@ footer{
     margin-bottom:0;
     padding-bottom: 0;
     position: relative;
-    background-color: #222;
+    background-color: #FFF;
     width: 100%;
 }
 footer .container {
@@ -176,7 +175,7 @@ footer p {
 
 }
 footer p a {
-    color: #eee2dc;
+    color: #3285DF;
     -webkit-transition: 0.1s;
     transition: 0.1s;
     text-decoration: none;
@@ -340,7 +339,7 @@ p {
 }
 
 .book {
-    background-color: #222;
+    background-color: #FFF;
     padding-top: 70px;
 }
 .book p {
@@ -351,7 +350,7 @@ p {
     font-size: 48px;
     text-align: center;
     font-family: 'Playfair Display', serif;
-    color: #FFF;
+    color: #222;
     font-weight: bolder;
     padding-bottom: 30px;
 }
@@ -360,7 +359,7 @@ p {
     font-family: 'Playfair Display', serif;
     text-align: left;
     font-weight: bold;
-    color: #FFF;
+    color: #222;
 
 }
 .book .btns {
@@ -398,7 +397,7 @@ p {
     margin-left: 15px;
     margin-right: 15px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #DF3770;
+    border-bottom: 1px solid #222;
     text-align: center;
 
 
@@ -449,7 +448,7 @@ div #review strong {
 }
 .related h1 {
     color: #eee2dc;
-    font-family: 'Miniver', cursive;
+    font-family: 'Playfair Display', cursive;
     text-align: center;
     font-weight: normal;
     font-size: 60px;
@@ -504,7 +503,7 @@ div #review strong {
     font-weight: bold;
     background-color: #FFF;
     padding-bottom: 10px;
-    border-bottom: 1px solid #eee2dc;
+    border-bottom: 1px solid #222;
 }
 .recommend .rec h1 {
     font-size: 24px;
