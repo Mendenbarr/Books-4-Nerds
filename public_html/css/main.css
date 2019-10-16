@@ -607,11 +607,12 @@ div #review strong {
 
 .cart h1{
     text-align: center;
-    font-family: 'Miniver', cursive;
+    font-family: 'Playfair Display', cursive;
     color: #3285DF;
-    font-size: 72px;
+    font-size: 52px;
     padding-top: 15px;
     font-weight: bolder;
+    margin-bottom: 60px;
 
 
 }
@@ -619,7 +620,10 @@ div #review strong {
 
     color: #222;
     width: 100%;
-    border-bottom: 1px solid #222;
+    border: 1px solid #222;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
 .item4 {
     margin-bottom: 20px;
@@ -640,6 +644,18 @@ div #review strong {
     vertical-align: bottom!important;
     text-align: center;
 
+}
+.iteminfo i{
+    font-size: 40px;
+    margin:auto;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+    vertical-align: middle;
+}
+.iteminfo i:hover {
+    color: red;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
 }
 .labels {
     text-align: center;
