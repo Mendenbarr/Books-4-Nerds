@@ -744,18 +744,42 @@ div #review strong {
     font-size: 18px;
     color: #eee2dc;
 }
-.question h2{
-    font-size: 30px;
-    color: #222;
-    font-weight: bolder;
-}
 .question {
-    border-bottom: 1px solid #edc7b7;
+    border: 1px solid #edc7b7;
+    border-top: none;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 15px;
 }
-.question h3 {
+.collapsible{
+     cursor: pointer;
+     width: 100%;
+     padding: 18px;
+     text-align: left;
+     font-size: 17px;
+}
+.collapsible:after{
+    content: '\002B';
+    float: right;
+    margin-left: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.active, .collapsible:hover{
+    background-color:#f1f1f1;
+}
+
+.active:after{
+    content: '\2212';
+    font-weight: bold;
+}
+/*.question h3 {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
-}
+}*/
 .question p {
     font-size: 16px;
 }
@@ -838,6 +862,7 @@ div #review strong {
         visibility:hidden;
     }
 }
+
 
 
 
